@@ -1,0 +1,10 @@
+flask
+flask-cors
+pandas
+numpy
+scikit-learn
+scipy
+scikit-surprise
+google-generativeai
+python-dotenv
+sentence-transformers

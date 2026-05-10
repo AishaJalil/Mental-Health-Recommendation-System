@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:/Users/Z.H/OneDrive/Desktop/RS project/backend/data\")",
+      "Bash(mkdir -p \"C:/Users/Z.H/OneDrive/Desktop/RS project/backend/models\")",
+      "Bash(mkdir -p \"C:/Users/Z.H/OneDrive/Desktop/RS project/backend/evaluation\")",
+      "Bash(mkdir -p \"C:/Users/Z.H/OneDrive/Desktop/RS project/frontend/css\")",
+      "Bash(mkdir -p \"C:/Users/Z.H/OneDrive/Desktop/RS project/frontend/js\")",
+      "Bash(python -m py_compile backend/data/generate_data.py)",
+      "Bash(python -m py_compile backend/models/collaborative_filtering.py)",
+      "Bash(python -m py_compile backend/models/content_based.py)",
+      "Bash(python -m py_compile backend/models/matrix_factorization.py)",
+      "Bash(python -m py_compile backend/models/hybrid.py)",
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "Bash(python3 -c \"import flask, flask_cors, pandas, numpy, sklearn, scipy; print\\('All packages available'\\)\")",
+      "Bash(pip3 show *)",
+      "Bash(where python *)",
+      "Bash(pip list *)",
+      "Bash(C:/Users/Z.H/AppData/Local/Programs/Python/Python311/python.exe *)",
+      "Bash(pip show *)",
+      "Bash(\"E:\\\\Downloads\\\\SMART HR\\\\.venv\\\\Scripts\\\\pip.exe\" install sentence-transformers)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\Z.H\\\\OneDrive\\\\Desktop\\\\RS project\" -Recurse -File | ForEach-Object { $_.FullName } | Sort-Object)",
+      "PowerShell(\\(Get-Content \"C:\\\\Users\\\\Z.H\\\\OneDrive\\\\Desktop\\\\RS project\\\\frontend\\\\css\\\\style.css\" | Measure-Object -Line\\).Lines)",
+      "Bash(python --version)",
+      "Bash(python3 --version)",
+      "Bash(Get-ChildItem -Recurse -Force)",
+      "Bash(Select-Object FullName)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Z.H\\\\OneDrive\\\\Desktop\\\\RS project\" -Recurse -Force)",
+      "Bash(Select-Object FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "Bash(Format-Table -AutoSize)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\Z.H\\\\OneDrive\\\\Desktop\\\\RS project\" -Recurse | Select-Object Name, FullName, @{Name='IsDir';Expression={$_.PSIsContainer}} | Format-List)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Z.H\\\\OneDrive\\\\Desktop\\\\RS project\" -Recurse)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\Z.H\\\\OneDrive\\\\Desktop\\\\RS project\" -Recurse -File | Where-Object {$_.Name -match '\\\\.\\(py|json|md\\)$'} | Select-Object FullName | Sort-Object FullName)"
+    ]
+  }
+}

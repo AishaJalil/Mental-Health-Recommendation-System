@@ -1,0 +1,1001 @@
+user_id,name,age_group,occupation,dass_depression,dass_anxiety,dass_stress,depression_severity,anxiety_severity,stress_severity,sleep_quality,social_support,dietary_preference
+U0001,Alice,51+,Student,9,8,17,Normal,Mild,Mild,3.8,2.7,none
+U0002,Bob,18-25,Professional,3,3,2,Normal,Normal,Normal,1.6,2.7,none
+U0003,Charlie,18-25,Professional,16,11,20,Moderate,Moderate,Moderate,1.3,2.6,none
+U0004,Diana,18-25,Student,12,7,16,Mild,Normal,Mild,2.1,3.5,none
+U0005,Eve,51+,Freelancer,3,5,9,Normal,Normal,Normal,2.5,2.3,none
+U0006,Frank,18-25,Researcher,11,9,14,Mild,Mild,Normal,3.2,1.4,none
+U0007,Grace,26-35,Student,11,9,14,Mild,Mild,Normal,1.7,3.9,none
+U0008,Henry,18-25,Student,10,8,12,Mild,Mild,Normal,3.3,2.9,none
+U0009,Iris,18-25,Professional,5,5,11,Normal,Normal,Normal,3.6,3.0,none
+U0010,Jack,36-50,Researcher,3,4,11,Normal,Normal,Normal,2.6,3.0,none
+U0011,Kate,18-25,Freelancer,13,7,18,Mild,Normal,Mild,3.2,2.3,none
+U0012,Liam,18-25,Freelancer,17,13,27,Moderate,Moderate,Severe,3.0,4.6,none
+U0013,Mia,26-35,Professional,10,8,13,Mild,Mild,Normal,3.8,4.0,none
+U0014,Noah,26-35,Researcher,4,6,6,Normal,Normal,Normal,2.4,2.7,none
+U0015,Olivia,26-35,Student,24,18,30,Severe,Severe,Severe,3.3,4.4,none
+U0016,Peter,18-25,Teacher,23,15,28,Severe,Severe,Severe,2.7,1.9,none
+U0017,Quinn,26-35,Professional,18,17,28,Moderate,Severe,Severe,2.8,3.6,none
+U0018,Rachel,18-25,Professional,11,10,16,Mild,Moderate,Mild,3.2,3.1,none
+U0019,Sam,26-35,Student,32,18,33,Extremely Severe,Severe,Severe,2.2,3.3,none
+U0020,Tina,18-25,Teacher,10,8,17,Mild,Mild,Mild,3.0,2.1,none
+U0021,Uma,18-25,Healthcare Worker,34,19,34,Extremely Severe,Severe,Extremely Severe,3.6,2.5,none
+U0022,Victor,26-35,Researcher,20,13,29,Moderate,Moderate,Severe,2.2,2.7,none
+U0023,Wendy,26-35,Student,7,5,8,Normal,Normal,Normal,2.7,3.8,none
+U0024,Xavier,51+,Artist,2,1,13,Normal,Normal,Normal,2.4,2.9,none
+U0025,Yara,36-50,Student,22,17,32,Severe,Severe,Severe,3.4,4.4,none
+U0026,Zoe,26-35,Student,9,4,10,Normal,Normal,Normal,2.0,2.0,none
+U0027,Aaron,36-50,Professional,18,14,23,Moderate,Moderate,Moderate,3.7,3.4,none
+U0028,Beth,51+,Researcher,15,10,24,Moderate,Moderate,Moderate,2.2,3.9,none
+U0029,Carl,26-35,Researcher,13,9,17,Mild,Mild,Mild,3.8,2.4,none
+U0030,Dana,18-25,Student,11,7,14,Mild,Normal,Normal,2.9,3.5,none
+U0031,Ethan,18-25,Professional,25,17,37,Severe,Severe,Extremely Severe,3.1,1.9,none
+U0032,Fiona,26-35,Student,17,10,23,Moderate,Moderate,Moderate,2.8,3.8,none
+U0033,George,18-25,Student,4,4,7,Normal,Normal,Normal,3.6,4.1,none
+U0034,Hannah,26-35,Professional,10,8,14,Mild,Mild,Normal,3.1,3.5,none
+U0035,Ian,26-35,Healthcare Worker,17,10,25,Moderate,Moderate,Moderate,3.0,4.0,none
+U0036,Julia,18-25,Healthcare Worker,19,9,19,Moderate,Mild,Moderate,3.4,3.7,none
+U0037,Kyle,26-35,Professional,23,18,33,Severe,Severe,Severe,3.0,4.4,none
+U0038,Laura,51+,Professional,19,11,24,Moderate,Moderate,Moderate,2.4,3.0,none
+U0039,Mark,51+,Student,17,11,17,Moderate,Moderate,Mild,3.3,2.8,none
+U0040,Nancy,36-50,Student,4,2,11,Normal,Normal,Normal,3.1,2.2,none
+U0041,Oscar,36-50,Professional,18,9,29,Moderate,Mild,Severe,4.5,4.4,none
+U0042,Paula,18-25,Artist,34,17,37,Extremely Severe,Severe,Extremely Severe,2.5,4.0,none
+U0043,Ryan,26-35,Professional,9,10,15,Normal,Moderate,Mild,2.7,3.5,none
+U0044,Sara,51+,Freelancer,14,9,25,Moderate,Mild,Moderate,4.7,4.1,none
+U0045,Tom,18-25,Healthcare Worker,10,7,16,Mild,Normal,Mild,4.5,3.2,none
+U0046,Una,18-25,Professional,9,8,14,Normal,Mild,Normal,4.3,1.9,none
+U0047,Vince,18-25,Healthcare Worker,17,11,22,Moderate,Moderate,Moderate,4.9,3.6,none
+U0048,Willa,26-35,Professional,6,3,6,Normal,Normal,Normal,3.1,2.9,none
+U0049,Xander,18-25,Professional,19,19,27,Moderate,Severe,Severe,4.7,3.8,none
+U0050,Yvonne,36-50,Healthcare Worker,11,8,15,Mild,Mild,Mild,2.8,2.8,none
+U0051,Zack,18-25,Artist,22,15,32,Severe,Severe,Severe,4.2,3.5,none
+U0052,Amber,26-35,Artist,24,14,27,Severe,Moderate,Severe,3.6,3.7,none
+U0053,Brian,18-25,Professional,27,19,34,Severe,Severe,Extremely Severe,3.9,4.6,none
+U0054,Clara,18-25,Professional,16,15,22,Moderate,Severe,Moderate,3.5,2.9,none
+U0055,Derek,51+,Freelancer,10,7,20,Mild,Normal,Moderate,3.9,1.6,none
+U0056,Emily,36-50,Professional,10,9,18,Mild,Mild,Mild,3.5,3.8,none
+U0057,Felix,51+,Researcher,3,3,2,Normal,Normal,Normal,4.4,2.9,none
+U0058,Gina,26-35,Researcher,6,4,6,Normal,Normal,Normal,2.3,3.4,none
+U0059,Hugo,26-35,Healthcare Worker,3,3,10,Normal,Normal,Normal,3.7,4.2,none
+U0060,Isabel,18-25,Student,22,15,28,Severe,Severe,Severe,3.2,4.5,none
+U0061,James,36-50,Artist,10,8,15,Mild,Mild,Mild,3.0,4.3,none
+U0062,Karen,18-25,Student,19,12,23,Moderate,Moderate,Moderate,3.6,2.8,none
+U0063,Leo,18-25,Student,4,5,9,Normal,Normal,Normal,3.0,5.0,none
+U0064,Monica,51+,Student,18,16,20,Moderate,Severe,Moderate,3.7,3.4,none
+U0065,Nate,51+,Teacher,4,5,4,Normal,Normal,Normal,3.6,3.1,none
+U0066,Penny,36-50,Student,8,7,16,Normal,Normal,Mild,3.3,4.9,none
+U0067,Paul,26-35,Teacher,12,9,17,Mild,Mild,Mild,4.2,3.8,none
+U0068,Rita,36-50,Artist,23,18,28,Severe,Severe,Severe,1.6,4.4,none
+U0069,Steve,36-50,Professional,33,22,29,Extremely Severe,Extremely Severe,Severe,2.3,3.1,none
+U0070,Tara,36-50,Student,23,16,29,Severe,Severe,Severe,2.6,3.8,none
+U0071,Ulric,51+,Student,8,9,18,Normal,Mild,Mild,4.2,2.5,none
+U0072,Vera,51+,Freelancer,16,15,22,Moderate,Severe,Moderate,3.9,3.3,none
+U0073,Will,26-35,Healthcare Worker,19,12,19,Moderate,Moderate,Moderate,2.8,4.5,none
+U0074,Xena,18-25,Professional,6,5,3,Normal,Normal,Normal,2.1,1.4,none
+U0075,Yasmin,26-35,Student,23,12,28,Severe,Moderate,Severe,4.1,4.1,none
+U0076,Zara,26-35,Student,24,13,29,Severe,Moderate,Severe,3.3,3.2,none
+U0077,Alex,51+,Professional,13,7,16,Mild,Normal,Mild,2.9,2.2,none
+U0078,Bella,36-50,Student,12,8,18,Mild,Mild,Mild,2.2,3.7,none
+U0079,Chris,36-50,Student,2,2,4,Normal,Normal,Normal,2.8,3.3,none
+U0080,Daisy,51+,Professional,12,11,23,Mild,Moderate,Moderate,2.9,3.0,none
+U0081,Elliot,51+,Freelancer,22,17,27,Severe,Severe,Severe,2.0,5.0,none
+U0082,Freya,36-50,Professional,10,10,16,Mild,Moderate,Mild,3.5,3.5,none
+U0083,Gavin,18-25,Healthcare Worker,9,8,19,Normal,Mild,Moderate,1.0,2.5,none
+U0084,Holly,18-25,Freelancer,9,7,14,Normal,Normal,Normal,4.3,4.0,none
+U0085,Ivan,36-50,Student,15,12,29,Moderate,Moderate,Severe,3.8,2.8,none
+U0086,Jade,36-50,Healthcare Worker,7,1,4,Normal,Normal,Normal,3.7,4.9,none
+U0087,Kirk,26-35,Student,11,8,15,Mild,Mild,Mild,2.8,2.8,none
+U0088,Luna,18-25,Healthcare Worker,3,2,5,Normal,Normal,Normal,3.0,2.5,none
+U0089,Max,26-35,Professional,12,8,16,Mild,Mild,Mild,3.2,2.5,none
+U0090,Nina,18-25,Professional,16,12,24,Moderate,Moderate,Moderate,1.7,3.7,none
+U0091,Oliver,36-50,Student,16,10,23,Moderate,Moderate,Moderate,1.0,2.8,none
+U0092,Polly,18-25,Artist,16,13,17,Moderate,Moderate,Mild,2.9,2.1,none
+U0093,Rex,18-25,Freelancer,11,8,15,Mild,Mild,Mild,3.6,4.2,none
+U0094,Stella,18-25,Student,19,7,20,Moderate,Normal,Moderate,3.5,3.0,none
+U0095,Tyler,51+,Artist,23,16,30,Severe,Severe,Severe,4.3,3.1,none
+U0096,Ursula,36-50,Student,17,11,21,Moderate,Moderate,Moderate,3.3,2.8,none
+U0097,Val,26-35,Freelancer,13,13,21,Mild,Moderate,Moderate,3.8,3.0,none
+U0098,Wade,36-50,Teacher,14,6,15,Moderate,Normal,Mild,3.0,4.7,none
+U0099,Xia,18-25,Freelancer,4,5,11,Normal,Normal,Normal,3.1,2.4,none
+U0100,Yuki,51+,Professional,24,13,32,Severe,Moderate,Severe,3.3,2.8,none
+U0101,Alice_2,51+,Professional,19,12,21,Moderate,Moderate,Moderate,3.3,2.2,none
+U0102,Bob_2,26-35,Healthcare Worker,15,12,21,Moderate,Moderate,Moderate,3.4,3.5,none
+U0103,Charlie_2,26-35,Freelancer,14,8,15,Moderate,Mild,Mild,2.6,4.1,none
+U0104,Diana_2,26-35,Student,19,13,28,Moderate,Moderate,Severe,2.4,2.1,none
+U0105,Eve_2,18-25,Professional,4,5,5,Normal,Normal,Normal,1.1,3.4,none
+U0106,Frank_2,18-25,Healthcare Worker,22,12,24,Severe,Moderate,Moderate,3.4,3.4,none
+U0107,Grace_2,18-25,Researcher,18,10,18,Moderate,Moderate,Mild,4.5,3.4,none
+U0108,Henry_2,36-50,Professional,23,14,29,Severe,Moderate,Severe,3.0,4.2,none
+U0109,Iris_2,36-50,Professional,16,12,25,Moderate,Moderate,Moderate,2.5,4.0,none
+U0110,Jack_2,18-25,Student,18,13,25,Moderate,Moderate,Moderate,2.7,4.7,none
+U0111,Kate_2,51+,Student,2,3,8,Normal,Normal,Normal,1.9,3.9,none
+U0112,Liam_2,18-25,Student,11,10,18,Mild,Moderate,Mild,2.8,2.2,none
+U0113,Mia_2,18-25,Healthcare Worker,4,3,6,Normal,Normal,Normal,3.1,2.5,none
+U0114,Noah_2,18-25,Freelancer,24,15,27,Severe,Severe,Severe,3.0,2.7,none
+U0115,Olivia_2,18-25,Professional,20,7,16,Moderate,Normal,Mild,2.0,2.1,none
+U0116,Peter_2,51+,Artist,4,0,6,Normal,Normal,Normal,2.1,4.8,none
+U0117,Quinn_2,18-25,Freelancer,5,1,8,Normal,Normal,Normal,3.0,2.6,none
+U0118,Rachel_2,18-25,Researcher,16,11,23,Moderate,Moderate,Moderate,2.0,3.8,none
+U0119,Sam_2,36-50,Artist,6,1,9,Normal,Normal,Normal,3.2,4.7,none
+U0120,Tina_2,18-25,Artist,2,4,7,Normal,Normal,Normal,3.3,2.1,none
+U0121,Uma_2,26-35,Professional,9,7,19,Normal,Normal,Moderate,1.6,3.9,none
+U0122,Victor_2,18-25,Student,8,6,19,Normal,Normal,Moderate,3.2,3.1,none
+U0123,Wendy_2,51+,Teacher,19,12,21,Moderate,Moderate,Moderate,4.1,5.0,none
+U0124,Xavier_2,26-35,Teacher,5,3,7,Normal,Normal,Normal,3.0,3.5,none
+U0125,Yara_2,26-35,Artist,1,4,14,Normal,Normal,Normal,3.6,2.8,none
+U0126,Zoe_2,51+,Student,5,4,11,Normal,Normal,Normal,4.3,4.1,none
+U0127,Aaron_2,51+,Student,4,5,9,Normal,Normal,Normal,1.1,2.9,none
+U0128,Beth_2,18-25,Teacher,17,11,18,Moderate,Moderate,Mild,2.3,2.0,none
+U0129,Carl_2,51+,Healthcare Worker,18,8,28,Moderate,Mild,Severe,2.8,3.3,none
+U0130,Dana_2,18-25,Professional,4,2,8,Normal,Normal,Normal,5.0,3.1,none
+U0131,Ethan_2,18-25,Professional,10,8,16,Mild,Mild,Mild,2.7,5.0,none
+U0132,Fiona_2,36-50,Artist,11,9,15,Mild,Mild,Mild,3.5,4.1,none
+U0133,George_2,18-25,Teacher,0,5,4,Normal,Normal,Normal,2.8,4.2,none
+U0134,Hannah_2,18-25,Professional,17,13,25,Moderate,Moderate,Moderate,3.7,3.6,none
+U0135,Ian_2,26-35,Professional,1,3,10,Normal,Normal,Normal,3.1,3.6,none
+U0136,Julia_2,18-25,Artist,31,21,38,Extremely Severe,Extremely Severe,Extremely Severe,3.0,3.2,none
+U0137,Kyle_2,36-50,Student,8,9,14,Normal,Mild,Normal,4.0,3.0,none
+U0138,Laura_2,18-25,Freelancer,11,9,16,Mild,Mild,Mild,3.8,1.9,none
+U0139,Mark_2,18-25,Student,20,17,31,Moderate,Severe,Severe,3.0,4.3,none
+U0140,Nancy_2,18-25,Student,10,10,15,Mild,Moderate,Mild,2.6,4.5,none
+U0141,Oscar_2,26-35,Artist,9,9,15,Normal,Mild,Mild,2.4,2.3,none
+U0142,Paula_2,26-35,Professional,2,3,9,Normal,Normal,Normal,4.2,2.3,none
+U0143,Ryan_2,26-35,Student,4,1,15,Normal,Normal,Mild,2.5,4.3,none
+U0144,Sara_2,18-25,Teacher,14,7,15,Moderate,Normal,Mild,2.5,2.7,none
+U0145,Tom_2,18-25,Teacher,16,12,21,Moderate,Moderate,Moderate,2.1,3.9,none
+U0146,Una_2,26-35,Artist,6,2,10,Normal,Normal,Normal,3.2,1.8,none
+U0147,Vince_2,26-35,Teacher,15,12,21,Moderate,Moderate,Moderate,3.5,3.7,none
+U0148,Willa_2,51+,Freelancer,19,12,20,Moderate,Moderate,Moderate,1.9,2.5,none
+U0149,Xander_2,51+,Artist,15,12,24,Moderate,Moderate,Moderate,2.2,1.0,none
+U0150,Yvonne_2,18-25,Professional,15,11,25,Moderate,Moderate,Moderate,3.5,4.9,none
+U0151,Zack_2,26-35,Professional,4,4,11,Normal,Normal,Normal,3.3,3.6,none
+U0152,Amber_2,18-25,Researcher,24,18,33,Severe,Severe,Severe,4.1,3.8,none
+U0153,Brian_2,51+,Freelancer,3,1,6,Normal,Normal,Normal,3.4,3.6,none
+U0154,Clara_2,18-25,Healthcare Worker,12,8,16,Mild,Mild,Mild,1.9,3.9,none
+U0155,Derek_2,18-25,Student,20,12,23,Moderate,Moderate,Moderate,2.7,3.7,none
+U0156,Emily_2,36-50,Artist,11,9,16,Mild,Mild,Mild,2.6,3.4,none
+U0157,Felix_2,36-50,Freelancer,10,8,12,Mild,Mild,Normal,3.8,2.8,none
+U0158,Gina_2,18-25,Student,23,15,30,Severe,Severe,Severe,4.3,3.1,none
+U0159,Hugo_2,36-50,Student,14,11,18,Moderate,Moderate,Mild,2.9,3.8,none
+U0160,Isabel_2,18-25,Student,6,3,6,Normal,Normal,Normal,2.0,4.0,none
+U0161,James_2,36-50,Student,31,19,36,Extremely Severe,Severe,Extremely Severe,3.5,2.1,none
+U0162,Karen_2,51+,Professional,7,3,9,Normal,Normal,Normal,2.8,3.5,none
+U0163,Leo_2,26-35,Student,4,3,11,Normal,Normal,Normal,2.7,3.7,none
+U0164,Monica_2,36-50,Professional,4,4,9,Normal,Normal,Normal,3.5,3.6,none
+U0165,Nate_2,36-50,Researcher,15,13,26,Moderate,Moderate,Severe,3.4,2.3,none
+U0166,Penny_2,18-25,Researcher,4,2,13,Normal,Normal,Normal,3.0,1.9,none
+U0167,Paul_2,18-25,Teacher,1,4,6,Normal,Normal,Normal,3.8,3.0,none
+U0168,Rita_2,51+,Researcher,4,2,1,Normal,Normal,Normal,1.7,3.9,none
+U0169,Steve_2,36-50,Freelancer,18,13,22,Moderate,Moderate,Moderate,2.5,3.0,none
+U0170,Tara_2,26-35,Professional,31,21,33,Extremely Severe,Extremely Severe,Severe,4.2,4.0,none
+U0171,Ulric_2,18-25,Healthcare Worker,15,12,21,Moderate,Moderate,Moderate,2.9,3.0,none
+U0172,Vera_2,18-25,Professional,3,7,10,Normal,Normal,Normal,2.5,3.7,none
+U0173,Will_2,26-35,Student,5,1,13,Normal,Normal,Normal,3.3,3.6,none
+U0174,Xena_2,51+,Professional,24,18,27,Severe,Severe,Severe,4.1,3.4,none
+U0175,Yasmin_2,26-35,Healthcare Worker,12,10,15,Mild,Moderate,Mild,3.2,2.3,none
+U0176,Zara_2,18-25,Student,16,12,28,Moderate,Moderate,Severe,4.4,3.6,none
+U0177,Alex_2,26-35,Researcher,2,4,6,Normal,Normal,Normal,3.2,4.2,none
+U0178,Bella_2,36-50,Student,17,11,27,Moderate,Moderate,Severe,2.0,1.9,none
+U0179,Chris_2,18-25,Freelancer,27,25,36,Severe,Extremely Severe,Extremely Severe,4.4,1.7,none
+U0180,Daisy_2,18-25,Freelancer,16,15,26,Moderate,Severe,Severe,2.5,3.6,none
+U0181,Elliot_2,26-35,Student,18,11,17,Moderate,Moderate,Mild,3.0,3.1,none
+U0182,Freya_2,26-35,Student,13,9,13,Mild,Mild,Normal,2.7,2.2,none
+U0183,Gavin_2,18-25,Healthcare Worker,34,19,39,Extremely Severe,Severe,Extremely Severe,2.4,1.8,none
+U0184,Holly_2,26-35,Student,3,3,4,Normal,Normal,Normal,3.8,2.8,none
+U0185,Ivan_2,26-35,Freelancer,12,7,14,Mild,Normal,Normal,3.4,4.0,none
+U0186,Jade_2,51+,Professional,13,8,17,Mild,Mild,Mild,3.8,3.4,none
+U0187,Kirk_2,36-50,Freelancer,3,2,8,Normal,Normal,Normal,2.4,3.1,none
+U0188,Luna_2,18-25,Freelancer,21,16,23,Severe,Severe,Moderate,3.7,3.5,none
+U0189,Max_2,26-35,Student,7,11,14,Normal,Moderate,Normal,3.3,2.4,none
+U0190,Nina_2,18-25,Professional,18,11,28,Moderate,Moderate,Severe,2.8,3.4,none
+U0191,Oliver_2,18-25,Student,17,16,25,Moderate,Severe,Moderate,3.2,2.8,none
+U0192,Polly_2,51+,Freelancer,23,18,33,Severe,Severe,Severe,3.5,2.2,none
+U0193,Rex_2,18-25,Professional,9,8,18,Normal,Mild,Mild,2.8,3.5,none
+U0194,Stella_2,26-35,Researcher,20,12,25,Moderate,Moderate,Moderate,4.0,2.1,none
+U0195,Tyler_2,18-25,Healthcare Worker,24,17,33,Severe,Severe,Severe,2.8,3.3,none
+U0196,Ursula_2,18-25,Professional,2,1,4,Normal,Normal,Normal,4.3,2.4,none
+U0197,Val_2,36-50,Artist,8,8,13,Normal,Mild,Normal,2.5,3.4,none
+U0198,Wade_2,26-35,Student,16,11,29,Moderate,Moderate,Severe,3.8,2.9,none
+U0199,Xia_2,18-25,Teacher,10,8,14,Mild,Mild,Normal,1.8,4.5,none
+U0200,Yuki_2,26-35,Student,7,9,17,Normal,Mild,Mild,3.5,4.0,none
+U0201,Alice_3,18-25,Healthcare Worker,31,22,35,Extremely Severe,Extremely Severe,Extremely Severe,3.4,3.2,none
+U0202,Bob_3,18-25,Professional,2,1,5,Normal,Normal,Normal,3.1,4.5,none
+U0203,Charlie_3,18-25,Artist,14,9,15,Moderate,Mild,Mild,1.7,3.1,none
+U0204,Diana_3,36-50,Teacher,17,12,18,Moderate,Moderate,Mild,2.5,3.5,none
+U0205,Eve_3,36-50,Student,20,12,20,Moderate,Moderate,Moderate,3.1,3.6,none
+U0206,Frank_3,18-25,Student,17,12,22,Moderate,Moderate,Moderate,2.4,2.6,none
+U0207,Grace_3,51+,Student,19,11,21,Moderate,Moderate,Moderate,3.6,3.9,none
+U0208,Henry_3,36-50,Student,3,2,12,Normal,Normal,Normal,2.5,3.5,none
+U0209,Iris_3,26-35,Researcher,21,10,24,Severe,Moderate,Moderate,2.4,2.9,none
+U0210,Jack_3,36-50,Student,5,3,8,Normal,Normal,Normal,3.8,5.0,none
+U0211,Kate_3,26-35,Student,7,0,9,Normal,Normal,Normal,3.0,3.6,none
+U0212,Liam_3,18-25,Professional,9,10,15,Normal,Moderate,Mild,3.5,4.7,none
+U0213,Mia_3,26-35,Student,2,2,6,Normal,Normal,Normal,2.8,2.5,none
+U0214,Noah_3,26-35,Professional,23,16,24,Severe,Severe,Moderate,3.3,4.0,none
+U0215,Olivia_3,51+,Professional,9,7,17,Normal,Normal,Mild,4.6,3.0,none
+U0216,Peter_3,51+,Student,7,4,8,Normal,Normal,Normal,3.4,2.4,none
+U0217,Quinn_3,26-35,Freelancer,2,3,13,Normal,Normal,Normal,2.8,4.4,none
+U0218,Rachel_3,26-35,Researcher,15,10,21,Moderate,Moderate,Moderate,4.0,3.3,none
+U0219,Sam_3,51+,Student,10,8,15,Mild,Mild,Mild,3.3,3.7,none
+U0220,Tina_3,18-25,Student,18,10,18,Moderate,Moderate,Mild,1.5,3.7,none
+U0221,Uma_3,18-25,Teacher,15,7,18,Moderate,Normal,Mild,3.0,3.4,none
+U0222,Victor_3,18-25,Student,23,16,29,Severe,Severe,Severe,3.7,2.9,none
+U0223,Wendy_3,51+,Healthcare Worker,24,17,27,Severe,Severe,Severe,2.8,2.1,none
+U0224,Xavier_3,26-35,Professional,16,12,22,Moderate,Moderate,Moderate,3.9,3.6,none
+U0225,Yara_3,26-35,Student,9,2,6,Normal,Normal,Normal,3.4,1.0,none
+U0226,Zoe_3,51+,Student,4,2,7,Normal,Normal,Normal,3.0,3.7,none
+U0227,Aaron_3,26-35,Student,27,20,27,Severe,Extremely Severe,Severe,3.2,3.5,none
+U0228,Beth_3,26-35,Professional,2,6,12,Normal,Normal,Normal,2.8,4.5,none
+U0229,Carl_3,18-25,Artist,3,2,7,Normal,Normal,Normal,2.4,3.5,none
+U0230,Dana_3,26-35,Professional,3,3,8,Normal,Normal,Normal,3.3,4.3,none
+U0231,Ethan_3,18-25,Professional,12,10,14,Mild,Moderate,Normal,2.8,3.1,none
+U0232,Fiona_3,18-25,Professional,6,1,3,Normal,Normal,Normal,3.4,3.9,none
+U0233,George_3,26-35,Healthcare Worker,17,12,21,Moderate,Moderate,Moderate,3.0,4.0,none
+U0234,Hannah_3,26-35,Student,2,0,9,Normal,Normal,Normal,3.0,3.7,none
+U0235,Ian_3,26-35,Healthcare Worker,0,7,4,Normal,Normal,Normal,3.0,4.3,none
+U0236,Julia_3,51+,Freelancer,9,7,13,Normal,Normal,Normal,4.2,3.0,none
+U0237,Kyle_3,26-35,Freelancer,25,14,24,Severe,Moderate,Moderate,2.7,3.1,none
+U0238,Laura_3,26-35,Student,19,13,23,Moderate,Moderate,Moderate,4.0,4.6,none
+U0239,Mark_3,18-25,Professional,2,3,8,Normal,Normal,Normal,4.4,3.0,none
+U0240,Nancy_3,18-25,Researcher,4,2,9,Normal,Normal,Normal,1.9,2.3,none
+U0241,Oscar_3,26-35,Student,12,9,15,Mild,Mild,Mild,2.7,3.5,none
+U0242,Paula_3,18-25,Researcher,16,14,20,Moderate,Moderate,Moderate,1.9,4.6,none
+U0243,Ryan_3,26-35,Healthcare Worker,5,1,10,Normal,Normal,Normal,4.0,2.7,none
+U0244,Sara_3,51+,Healthcare Worker,32,20,39,Extremely Severe,Extremely Severe,Extremely Severe,3.0,3.4,none
+U0245,Tom_3,26-35,Researcher,18,13,19,Moderate,Moderate,Moderate,3.3,3.7,none
+U0246,Una_3,36-50,Student,4,1,2,Normal,Normal,Normal,4.6,2.2,none
+U0247,Vince_3,26-35,Researcher,22,15,30,Severe,Severe,Severe,2.9,2.0,none
+U0248,Willa_3,18-25,Professional,25,16,30,Severe,Severe,Severe,2.8,4.6,none
+U0249,Xander_3,18-25,Teacher,25,17,26,Severe,Severe,Severe,3.4,3.5,none
+U0250,Yvonne_3,18-25,Freelancer,23,17,27,Severe,Severe,Severe,2.6,3.7,none
+U0251,Zack_3,36-50,Professional,12,9,21,Mild,Mild,Moderate,3.9,1.5,none
+U0252,Amber_3,26-35,Teacher,17,14,23,Moderate,Moderate,Moderate,4.0,3.8,none
+U0253,Brian_3,18-25,Healthcare Worker,3,3,10,Normal,Normal,Normal,2.3,4.4,none
+U0254,Clara_3,36-50,Healthcare Worker,3,6,9,Normal,Normal,Normal,2.0,3.6,none
+U0255,Derek_3,51+,Student,12,9,13,Mild,Mild,Normal,2.1,2.8,none
+U0256,Emily_3,51+,Professional,21,19,28,Severe,Severe,Severe,3.2,4.0,none
+U0257,Felix_3,36-50,Professional,14,7,18,Moderate,Normal,Mild,2.5,3.4,none
+U0258,Gina_3,51+,Teacher,9,7,16,Normal,Normal,Mild,4.2,5.0,none
+U0259,Hugo_3,26-35,Teacher,20,14,20,Moderate,Moderate,Moderate,3.7,3.2,none
+U0260,Isabel_3,51+,Professional,7,3,7,Normal,Normal,Normal,3.6,4.1,none
+U0261,James_3,36-50,Student,11,14,21,Mild,Moderate,Moderate,2.3,2.4,none
+U0262,Karen_3,18-25,Teacher,4,6,10,Normal,Normal,Normal,2.2,4.9,none
+U0263,Leo_3,51+,Teacher,16,13,25,Moderate,Moderate,Moderate,2.8,4.3,none
+U0264,Monica_3,51+,Student,13,11,19,Mild,Moderate,Moderate,3.1,1.6,none
+U0265,Nate_3,36-50,Researcher,6,3,7,Normal,Normal,Normal,3.3,3.0,none
+U0266,Penny_3,26-35,Teacher,14,8,20,Moderate,Mild,Moderate,4.3,2.8,none
+U0267,Paul_3,36-50,Student,18,10,23,Moderate,Moderate,Moderate,2.5,3.5,none
+U0268,Rita_3,26-35,Professional,4,3,7,Normal,Normal,Normal,2.3,2.5,none
+U0269,Steve_3,18-25,Teacher,21,14,28,Severe,Moderate,Severe,4.3,2.7,none
+U0270,Tara_3,36-50,Researcher,4,0,11,Normal,Normal,Normal,3.6,2.9,none
+U0271,Ulric_3,51+,Healthcare Worker,4,3,10,Normal,Normal,Normal,3.1,3.1,none
+U0272,Vera_3,26-35,Artist,3,5,4,Normal,Normal,Normal,3.2,2.0,none
+U0273,Will_3,26-35,Professional,11,8,14,Mild,Mild,Normal,2.7,2.8,none
+U0274,Xena_3,36-50,Artist,3,3,11,Normal,Normal,Normal,2.2,3.3,none
+U0275,Yasmin_3,51+,Student,22,16,30,Severe,Severe,Severe,4.4,3.1,none
+U0276,Zara_3,51+,Student,9,8,18,Normal,Mild,Mild,1.1,2.3,none
+U0277,Alex_3,26-35,Freelancer,16,12,26,Moderate,Moderate,Severe,3.0,2.6,none
+U0278,Bella_3,51+,Researcher,17,11,20,Moderate,Moderate,Moderate,2.6,2.3,none
+U0279,Chris_3,26-35,Student,14,12,21,Moderate,Moderate,Moderate,3.4,3.5,none
+U0280,Daisy_3,18-25,Professional,17,14,22,Moderate,Moderate,Moderate,2.9,5.0,none
+U0281,Elliot_3,18-25,Professional,6,4,12,Normal,Normal,Normal,2.5,1.6,none
+U0282,Freya_3,18-25,Student,17,16,25,Moderate,Severe,Moderate,2.6,4.4,none
+U0283,Gavin_3,18-25,Professional,21,16,32,Severe,Severe,Severe,3.5,4.0,none
+U0284,Holly_3,26-35,Researcher,22,15,28,Severe,Severe,Severe,2.2,3.6,none
+U0285,Ivan_3,18-25,Artist,10,8,16,Mild,Mild,Mild,3.2,3.7,none
+U0286,Jade_3,26-35,Researcher,11,7,17,Mild,Normal,Mild,2.9,4.1,none
+U0287,Kirk_3,18-25,Teacher,4,2,13,Normal,Normal,Normal,3.2,2.5,none
+U0288,Luna_3,26-35,Teacher,24,16,33,Severe,Severe,Severe,2.2,4.2,none
+U0289,Max_3,18-25,Student,11,9,16,Mild,Mild,Mild,1.2,2.8,none
+U0290,Nina_3,51+,Student,6,5,10,Normal,Normal,Normal,2.8,2.9,none
+U0291,Oliver_3,18-25,Teacher,3,0,10,Normal,Normal,Normal,4.0,1.8,none
+U0292,Polly_3,18-25,Student,25,17,29,Severe,Severe,Severe,2.3,3.5,none
+U0293,Rex_3,51+,Freelancer,19,10,21,Moderate,Moderate,Moderate,3.4,2.7,none
+U0294,Stella_3,26-35,Student,19,12,28,Moderate,Moderate,Severe,2.2,2.6,none
+U0295,Tyler_3,36-50,Professional,6,0,10,Normal,Normal,Normal,3.5,2.1,none
+U0296,Ursula_3,18-25,Artist,25,17,35,Severe,Severe,Extremely Severe,2.9,2.3,none
+U0297,Val_3,18-25,Artist,11,9,17,Mild,Mild,Mild,2.9,3.0,none
+U0298,Wade_3,51+,Freelancer,2,4,9,Normal,Normal,Normal,3.6,2.8,none
+U0299,Xia_3,36-50,Researcher,4,4,11,Normal,Normal,Normal,2.6,3.8,none
+U0300,Yuki_3,26-35,Artist,3,4,14,Normal,Normal,Normal,2.8,2.9,none
+U0301,Alice_4,36-50,Freelancer,0,2,3,Normal,Normal,Normal,3.6,4.1,none
+U0302,Bob_4,26-35,Freelancer,2,5,13,Normal,Normal,Normal,2.9,3.0,none
+U0303,Charlie_4,26-35,Student,17,11,20,Moderate,Moderate,Moderate,3.0,3.5,none
+U0304,Diana_4,51+,Artist,6,5,10,Normal,Normal,Normal,3.2,4.1,none
+U0305,Eve_4,26-35,Professional,7,7,19,Normal,Normal,Moderate,2.7,4.0,none
+U0306,Frank_4,18-25,Professional,11,10,19,Mild,Moderate,Moderate,4.3,3.9,none
+U0307,Grace_4,36-50,Artist,2,3,7,Normal,Normal,Normal,1.1,3.6,none
+U0308,Henry_4,51+,Professional,17,12,27,Moderate,Moderate,Severe,2.5,3.4,none
+U0309,Iris_4,26-35,Artist,3,0,7,Normal,Normal,Normal,1.3,3.6,none
+U0310,Jack_4,18-25,Professional,2,3,4,Normal,Normal,Normal,2.8,2.5,none
+U0311,Kate_4,18-25,Professional,24,21,30,Severe,Extremely Severe,Severe,2.9,2.5,none
+U0312,Liam_4,26-35,Healthcare Worker,17,11,20,Moderate,Moderate,Moderate,3.9,3.2,none
+U0313,Mia_4,36-50,Student,10,7,13,Mild,Normal,Normal,1.5,3.9,none
+U0314,Noah_4,18-25,Student,17,9,25,Moderate,Mild,Moderate,2.6,3.3,none
+U0315,Olivia_4,18-25,Teacher,4,2,6,Normal,Normal,Normal,3.3,2.5,none
+U0316,Peter_4,51+,Student,7,8,14,Normal,Mild,Normal,2.9,3.3,none
+U0317,Quinn_4,51+,Professional,5,3,12,Normal,Normal,Normal,3.9,4.3,none
+U0318,Rachel_4,18-25,Teacher,1,4,9,Normal,Normal,Normal,3.8,3.5,none
+U0319,Sam_4,26-35,Healthcare Worker,17,11,17,Moderate,Moderate,Mild,2.5,5.0,none
+U0320,Tina_4,36-50,Artist,3,3,5,Normal,Normal,Normal,4.0,2.4,none
+U0321,Uma_4,26-35,Student,18,14,28,Moderate,Moderate,Severe,2.4,2.4,none
+U0322,Victor_4,18-25,Teacher,15,15,21,Moderate,Severe,Moderate,3.2,3.4,none
+U0323,Wendy_4,26-35,Researcher,19,15,23,Moderate,Severe,Moderate,3.9,4.6,none
+U0324,Xavier_4,51+,Student,19,10,21,Moderate,Moderate,Moderate,2.1,3.0,none
+U0325,Yara_4,36-50,Teacher,21,15,29,Severe,Severe,Severe,2.9,1.9,none
+U0326,Zoe_4,26-35,Student,6,0,6,Normal,Normal,Normal,3.8,4.7,none
+U0327,Aaron_4,26-35,Professional,15,8,16,Moderate,Mild,Mild,2.1,3.2,none
+U0328,Beth_4,26-35,Teacher,31,20,36,Extremely Severe,Extremely Severe,Extremely Severe,2.9,2.9,none
+U0329,Carl_4,36-50,Freelancer,0,2,8,Normal,Normal,Normal,3.2,3.4,none
+U0330,Dana_4,36-50,Professional,25,16,30,Severe,Severe,Severe,1.7,2.2,none
+U0331,Ethan_4,26-35,Professional,11,7,19,Mild,Normal,Moderate,3.2,3.0,none
+U0332,Fiona_4,26-35,Teacher,13,7,15,Mild,Normal,Mild,2.9,2.8,none
+U0333,George_4,26-35,Student,4,4,11,Normal,Normal,Normal,1.5,3.0,none
+U0334,Hannah_4,26-35,Healthcare Worker,15,7,21,Moderate,Normal,Moderate,3.9,5.0,none
+U0335,Ian_4,51+,Teacher,16,9,22,Moderate,Mild,Moderate,2.5,1.8,none
+U0336,Julia_4,51+,Student,33,22,37,Extremely Severe,Extremely Severe,Extremely Severe,3.9,3.3,none
+U0337,Kyle_4,26-35,Student,3,4,6,Normal,Normal,Normal,3.7,3.1,none
+U0338,Laura_4,36-50,Freelancer,28,23,36,Extremely Severe,Extremely Severe,Extremely Severe,1.6,4.3,none
+U0339,Mark_4,18-25,Teacher,5,2,9,Normal,Normal,Normal,1.1,5.0,none
+U0340,Nancy_4,36-50,Researcher,22,16,30,Severe,Severe,Severe,3.4,3.8,none
+U0341,Oscar_4,51+,Student,19,12,22,Moderate,Moderate,Moderate,3.8,5.0,none
+U0342,Paula_4,18-25,Teacher,23,16,28,Severe,Severe,Severe,3.9,4.1,none
+U0343,Ryan_4,18-25,Artist,16,11,25,Moderate,Moderate,Moderate,2.6,2.4,none
+U0344,Sara_4,18-25,Student,30,23,38,Extremely Severe,Extremely Severe,Extremely Severe,3.6,3.7,none
+U0345,Tom_4,26-35,Teacher,18,11,24,Moderate,Moderate,Moderate,3.9,3.7,none
+U0346,Una_4,26-35,Professional,18,12,19,Moderate,Moderate,Moderate,2.9,2.5,none
+U0347,Vince_4,26-35,Healthcare Worker,11,7,16,Mild,Normal,Mild,2.9,3.2,none
+U0348,Willa_4,26-35,Teacher,5,3,6,Normal,Normal,Normal,3.5,4.0,none
+U0349,Xander_4,26-35,Teacher,4,2,5,Normal,Normal,Normal,2.4,4.0,none
+U0350,Yvonne_4,26-35,Student,22,18,28,Severe,Severe,Severe,2.8,1.4,none
+U0351,Zack_4,26-35,Student,4,3,3,Normal,Normal,Normal,4.0,2.4,none
+U0352,Amber_4,51+,Freelancer,24,10,30,Severe,Moderate,Severe,4.4,4.3,none
+U0353,Brian_4,18-25,Healthcare Worker,2,5,11,Normal,Normal,Normal,3.4,3.4,none
+U0354,Clara_4,18-25,Student,14,8,15,Moderate,Mild,Mild,3.0,1.6,none
+U0355,Derek_4,51+,Student,5,1,6,Normal,Normal,Normal,3.0,4.1,none
+U0356,Emily_4,18-25,Professional,2,5,5,Normal,Normal,Normal,2.5,2.9,none
+U0357,Felix_4,18-25,Student,12,8,18,Mild,Mild,Mild,2.5,3.1,none
+U0358,Gina_4,36-50,Student,25,17,29,Severe,Severe,Severe,3.2,2.7,none
+U0359,Hugo_4,18-25,Student,14,7,17,Moderate,Normal,Mild,2.3,3.4,none
+U0360,Isabel_4,26-35,Student,17,12,23,Moderate,Moderate,Moderate,2.5,2.9,none
+U0361,James_4,36-50,Professional,16,12,23,Moderate,Moderate,Moderate,2.9,1.0,none
+U0362,Karen_4,26-35,Professional,11,7,14,Mild,Normal,Normal,2.6,3.1,none
+U0363,Leo_4,26-35,Student,19,11,21,Moderate,Moderate,Moderate,3.4,2.9,none
+U0364,Monica_4,36-50,Researcher,27,17,26,Severe,Severe,Severe,1.8,3.9,none
+U0365,Nate_4,51+,Student,7,5,11,Normal,Normal,Normal,1.9,4.6,none
+U0366,Penny_4,18-25,Professional,2,2,10,Normal,Normal,Normal,2.6,3.1,none
+U0367,Paul_4,18-25,Researcher,1,3,3,Normal,Normal,Normal,2.1,3.0,none
+U0368,Rita_4,18-25,Professional,6,10,18,Normal,Moderate,Mild,3.0,3.0,none
+U0369,Steve_4,36-50,Teacher,38,21,39,Extremely Severe,Extremely Severe,Extremely Severe,2.4,3.3,none
+U0370,Tara_4,26-35,Professional,37,22,38,Extremely Severe,Extremely Severe,Extremely Severe,2.7,2.7,none
+U0371,Ulric_4,18-25,Researcher,6,2,2,Normal,Normal,Normal,3.2,4.1,none
+U0372,Vera_4,51+,Professional,28,21,37,Extremely Severe,Extremely Severe,Extremely Severe,2.8,4.5,none
+U0373,Will_4,18-25,Professional,10,8,15,Mild,Mild,Mild,2.4,4.7,none
+U0374,Xena_4,51+,Researcher,11,8,16,Mild,Mild,Mild,2.0,2.6,none
+U0375,Yasmin_4,18-25,Researcher,5,1,9,Normal,Normal,Normal,4.1,3.5,none
+U0376,Zara_4,18-25,Healthcare Worker,16,15,19,Moderate,Severe,Moderate,2.4,2.1,none
+U0377,Alex_4,36-50,Teacher,22,12,30,Severe,Moderate,Severe,3.5,2.2,none
+U0378,Bella_4,51+,Healthcare Worker,32,18,37,Extremely Severe,Severe,Extremely Severe,4.6,3.2,none
+U0379,Chris_4,18-25,Freelancer,6,2,15,Normal,Normal,Mild,1.5,2.7,none
+U0380,Daisy_4,51+,Healthcare Worker,4,0,7,Normal,Normal,Normal,2.7,3.7,none
+U0381,Elliot_4,18-25,Teacher,32,22,35,Extremely Severe,Extremely Severe,Extremely Severe,1.7,2.6,none
+U0382,Freya_4,26-35,Student,17,13,22,Moderate,Moderate,Moderate,2.5,3.6,none
+U0383,Gavin_4,26-35,Healthcare Worker,9,9,19,Normal,Mild,Moderate,3.9,3.4,none
+U0384,Holly_4,51+,Artist,15,11,22,Moderate,Moderate,Moderate,2.0,3.7,none
+U0385,Ivan_4,51+,Student,12,9,16,Mild,Mild,Mild,2.3,3.2,none
+U0386,Jade_4,26-35,Student,16,11,20,Moderate,Moderate,Moderate,3.6,3.0,none
+U0387,Kirk_4,51+,Freelancer,28,18,37,Extremely Severe,Severe,Extremely Severe,3.1,3.3,none
+U0388,Luna_4,51+,Professional,12,7,18,Mild,Normal,Mild,1.4,4.0,none
+U0389,Max_4,36-50,Freelancer,16,11,17,Moderate,Moderate,Mild,3.0,3.4,none
+U0390,Nina_4,26-35,Artist,4,3,10,Normal,Normal,Normal,4.6,1.8,none
+U0391,Oliver_4,26-35,Researcher,9,9,18,Normal,Mild,Mild,2.8,4.5,none
+U0392,Polly_4,26-35,Healthcare Worker,10,7,16,Mild,Normal,Mild,2.0,3.5,none
+U0393,Rex_4,18-25,Student,10,8,16,Mild,Mild,Mild,3.6,4.3,none
+U0394,Stella_4,26-35,Artist,22,18,26,Severe,Severe,Severe,3.5,4.3,none
+U0395,Tyler_4,18-25,Artist,4,5,6,Normal,Normal,Normal,1.7,3.8,none
+U0396,Ursula_4,36-50,Researcher,0,1,5,Normal,Normal,Normal,3.5,2.2,none
+U0397,Val_4,51+,Teacher,16,14,19,Moderate,Moderate,Moderate,2.0,4.0,none
+U0398,Wade_4,26-35,Student,5,5,7,Normal,Normal,Normal,2.5,4.5,none
+U0399,Xia_4,26-35,Healthcare Worker,16,12,27,Moderate,Moderate,Severe,3.3,3.6,none
+U0400,Yuki_4,18-25,Artist,16,13,17,Moderate,Moderate,Mild,3.8,2.3,none
+U0401,Alice_5,18-25,Healthcare Worker,17,10,15,Moderate,Moderate,Mild,3.1,4.2,none
+U0402,Bob_5,26-35,Healthcare Worker,13,8,17,Mild,Mild,Mild,3.5,3.6,none
+U0403,Charlie_5,26-35,Researcher,3,4,4,Normal,Normal,Normal,2.0,4.2,none
+U0404,Diana_5,51+,Professional,19,12,24,Moderate,Moderate,Moderate,2.1,2.9,none
+U0405,Eve_5,36-50,Student,16,15,22,Moderate,Severe,Moderate,3.4,3.9,none
+U0406,Frank_5,36-50,Professional,21,17,29,Severe,Severe,Severe,3.0,2.6,none
+U0407,Grace_5,18-25,Professional,17,13,23,Moderate,Moderate,Moderate,4.1,2.3,none
+U0408,Henry_5,51+,Teacher,22,15,26,Severe,Severe,Severe,3.6,2.8,none
+U0409,Iris_5,26-35,Freelancer,16,14,25,Moderate,Moderate,Moderate,4.5,3.3,none
+U0410,Jack_5,18-25,Artist,3,1,4,Normal,Normal,Normal,1.8,4.2,none
+U0411,Kate_5,51+,Artist,16,12,20,Moderate,Moderate,Moderate,3.7,4.8,none
+U0412,Liam_5,26-35,Student,10,8,15,Mild,Mild,Mild,3.1,3.7,none
+U0413,Mia_5,18-25,Professional,15,13,27,Moderate,Moderate,Severe,2.6,2.9,none
+U0414,Noah_5,18-25,Teacher,3,4,8,Normal,Normal,Normal,3.0,2.5,none
+U0415,Olivia_5,51+,Professional,7,2,6,Normal,Normal,Normal,4.4,2.2,none
+U0416,Peter_5,26-35,Researcher,1,3,4,Normal,Normal,Normal,2.3,2.3,none
+U0417,Quinn_5,26-35,Artist,17,13,22,Moderate,Moderate,Moderate,3.1,3.4,none
+U0418,Rachel_5,36-50,Freelancer,15,9,24,Moderate,Mild,Moderate,3.6,2.2,none
+U0419,Sam_5,26-35,Teacher,14,14,24,Moderate,Moderate,Moderate,1.8,3.0,none
+U0420,Tina_5,51+,Freelancer,18,14,26,Moderate,Moderate,Severe,2.8,3.2,none
+U0421,Uma_5,26-35,Healthcare Worker,16,9,22,Moderate,Mild,Moderate,3.4,2.9,none
+U0422,Victor_5,51+,Artist,18,12,21,Moderate,Moderate,Moderate,3.2,2.9,none
+U0423,Wendy_5,26-35,Professional,20,15,34,Moderate,Severe,Extremely Severe,2.6,3.2,none
+U0424,Xavier_5,26-35,Professional,17,9,24,Moderate,Mild,Moderate,2.6,3.4,none
+U0425,Yara_5,18-25,Professional,5,4,6,Normal,Normal,Normal,2.3,4.7,none
+U0426,Zoe_5,26-35,Student,16,11,23,Moderate,Moderate,Moderate,3.4,3.6,none
+U0427,Aaron_5,51+,Freelancer,20,16,33,Moderate,Severe,Severe,3.5,3.3,none
+U0428,Beth_5,51+,Student,7,4,7,Normal,Normal,Normal,3.9,5.0,none
+U0429,Carl_5,18-25,Professional,6,2,11,Normal,Normal,Normal,3.5,5.0,none
+U0430,Dana_5,51+,Artist,2,2,13,Normal,Normal,Normal,4.6,2.5,none
+U0431,Ethan_5,26-35,Researcher,22,12,27,Severe,Moderate,Severe,3.0,3.9,none
+U0432,Fiona_5,36-50,Researcher,4,2,12,Normal,Normal,Normal,2.0,3.9,none
+U0433,George_5,26-35,Student,5,1,8,Normal,Normal,Normal,3.1,2.6,none
+U0434,Hannah_5,18-25,Professional,5,1,6,Normal,Normal,Normal,5.0,4.3,none
+U0435,Ian_5,18-25,Healthcare Worker,13,8,15,Mild,Mild,Mild,3.8,2.2,none
+U0436,Julia_5,18-25,Professional,8,8,14,Normal,Mild,Normal,3.1,5.0,none
+U0437,Kyle_5,18-25,Freelancer,5,5,9,Normal,Normal,Normal,3.1,2.8,none
+U0438,Laura_5,18-25,Professional,20,13,19,Moderate,Moderate,Moderate,3.4,2.4,none
+U0439,Mark_5,18-25,Student,4,6,7,Normal,Normal,Normal,3.3,2.5,none
+U0440,Nancy_5,36-50,Professional,3,8,9,Normal,Mild,Normal,1.9,2.7,none
+U0441,Oscar_5,51+,Student,4,4,2,Normal,Normal,Normal,4.1,4.4,none
+U0442,Paula_5,51+,Artist,12,10,24,Mild,Moderate,Moderate,1.0,3.2,none
+U0443,Ryan_5,18-25,Student,24,20,30,Severe,Extremely Severe,Severe,2.3,2.9,none
+U0444,Sara_5,36-50,Professional,2,1,10,Normal,Normal,Normal,3.7,3.0,none
+U0445,Tom_5,26-35,Artist,0,4,8,Normal,Normal,Normal,2.4,5.0,none
+U0446,Una_5,26-35,Healthcare Worker,19,13,27,Moderate,Moderate,Severe,3.3,3.6,none
+U0447,Vince_5,18-25,Student,19,16,28,Moderate,Severe,Severe,4.1,3.5,none
+U0448,Willa_5,26-35,Artist,22,14,29,Severe,Moderate,Severe,4.0,2.8,none
+U0449,Xander_5,18-25,Student,22,18,30,Severe,Severe,Severe,3.0,3.4,none
+U0450,Yvonne_5,26-35,Artist,3,5,7,Normal,Normal,Normal,1.5,3.8,none
+U0451,Zack_5,18-25,Researcher,1,0,7,Normal,Normal,Normal,2.5,4.8,none
+U0452,Amber_5,51+,Student,16,13,19,Moderate,Moderate,Moderate,2.8,3.2,none
+U0453,Brian_5,18-25,Student,24,19,33,Severe,Severe,Severe,3.3,3.9,none
+U0454,Clara_5,36-50,Professional,12,8,14,Mild,Mild,Normal,4.1,3.8,none
+U0455,Derek_5,18-25,Professional,4,3,9,Normal,Normal,Normal,3.2,3.7,none
+U0456,Emily_5,18-25,Freelancer,20,12,25,Moderate,Moderate,Moderate,2.2,3.6,none
+U0457,Felix_5,26-35,Researcher,9,9,15,Normal,Mild,Mild,2.2,2.5,none
+U0458,Gina_5,36-50,Researcher,10,8,18,Mild,Mild,Mild,2.3,4.6,none
+U0459,Hugo_5,18-25,Freelancer,25,17,32,Severe,Severe,Severe,2.1,3.3,none
+U0460,Isabel_5,26-35,Artist,17,10,19,Moderate,Moderate,Moderate,3.5,2.3,none
+U0461,James_5,26-35,Professional,1,4,11,Normal,Normal,Normal,3.4,3.8,none
+U0462,Karen_5,36-50,Teacher,6,4,6,Normal,Normal,Normal,2.2,1.4,none
+U0463,Leo_5,26-35,Researcher,3,4,6,Normal,Normal,Normal,3.1,2.1,none
+U0464,Monica_5,36-50,Student,25,15,31,Severe,Severe,Severe,3.3,3.5,none
+U0465,Nate_5,36-50,Student,3,3,11,Normal,Normal,Normal,2.4,3.5,none
+U0466,Penny_5,18-25,Professional,33,19,35,Extremely Severe,Severe,Extremely Severe,3.0,3.1,none
+U0467,Paul_5,26-35,Student,13,13,18,Mild,Moderate,Mild,3.6,4.4,none
+U0468,Rita_5,18-25,Professional,5,4,11,Normal,Normal,Normal,4.6,4.1,none
+U0469,Steve_5,18-25,Freelancer,26,20,34,Severe,Extremely Severe,Extremely Severe,2.6,2.0,none
+U0470,Tara_5,18-25,Student,16,13,16,Moderate,Moderate,Mild,3.5,4.0,none
+U0471,Ulric_5,18-25,Teacher,17,11,26,Moderate,Moderate,Severe,3.9,3.7,none
+U0472,Vera_5,26-35,Researcher,4,7,8,Normal,Normal,Normal,3.8,4.4,none
+U0473,Will_5,26-35,Professional,5,1,4,Normal,Normal,Normal,3.3,2.8,none
+U0474,Xena_5,18-25,Professional,21,11,23,Severe,Moderate,Moderate,4.2,4.0,none
+U0475,Yasmin_5,26-35,Professional,21,22,26,Severe,Extremely Severe,Severe,2.7,1.7,none
+U0476,Zara_5,51+,Artist,24,20,34,Severe,Extremely Severe,Extremely Severe,2.6,3.1,none
+U0477,Alex_5,18-25,Professional,2,3,11,Normal,Normal,Normal,3.2,3.5,none
+U0478,Bella_5,26-35,Researcher,6,4,6,Normal,Normal,Normal,3.7,2.6,none
+U0479,Chris_5,51+,Professional,33,21,40,Extremely Severe,Extremely Severe,Extremely Severe,2.9,3.0,none
+U0480,Daisy_5,26-35,Student,3,3,6,Normal,Normal,Normal,2.9,1.8,none
+U0481,Elliot_5,36-50,Professional,1,2,6,Normal,Normal,Normal,3.8,2.3,none
+U0482,Freya_5,51+,Student,2,1,4,Normal,Normal,Normal,2.6,3.4,none
+U0483,Gavin_5,26-35,Student,3,4,11,Normal,Normal,Normal,2.7,1.5,none
+U0484,Holly_5,18-25,Student,17,11,23,Moderate,Moderate,Moderate,3.1,5.0,none
+U0485,Ivan_5,18-25,Professional,1,5,5,Normal,Normal,Normal,3.0,1.5,none
+U0486,Jade_5,36-50,Researcher,22,16,27,Severe,Severe,Severe,4.4,2.9,none
+U0487,Kirk_5,26-35,Artist,19,13,21,Moderate,Moderate,Moderate,3.6,4.3,none
+U0488,Luna_5,18-25,Artist,32,20,39,Extremely Severe,Extremely Severe,Extremely Severe,3.0,1.9,none
+U0489,Max_5,51+,Professional,10,9,21,Mild,Mild,Moderate,3.8,3.0,none
+U0490,Nina_5,51+,Teacher,13,10,15,Mild,Moderate,Mild,2.8,2.9,none
+U0491,Oliver_5,26-35,Freelancer,33,18,35,Extremely Severe,Severe,Extremely Severe,5.0,2.1,none
+U0492,Polly_5,36-50,Artist,18,15,18,Moderate,Severe,Mild,3.2,2.2,none
+U0493,Rex_5,26-35,Student,2,2,9,Normal,Normal,Normal,2.7,3.5,none
+U0494,Stella_5,36-50,Student,31,19,37,Extremely Severe,Severe,Extremely Severe,4.0,2.7,none
+U0495,Tyler_5,26-35,Healthcare Worker,11,7,17,Mild,Normal,Mild,3.4,3.7,none
+U0496,Ursula_5,36-50,Professional,2,4,7,Normal,Normal,Normal,2.3,2.4,none
+U0497,Val_5,18-25,Student,5,4,12,Normal,Normal,Normal,3.6,3.1,none
+U0498,Wade_5,18-25,Researcher,9,8,14,Normal,Mild,Normal,2.3,2.6,none
+U0499,Xia_5,36-50,Student,4,5,13,Normal,Normal,Normal,2.8,3.2,none
+U0500,Yuki_5,51+,Professional,9,7,19,Normal,Normal,Moderate,2.7,3.5,none
+U0501,Alice_6,36-50,Student,3,1,15,Normal,Normal,Mild,3.2,3.2,none
+U0502,Bob_6,18-25,Artist,13,6,19,Mild,Normal,Moderate,2.8,3.5,none
+U0503,Charlie_6,36-50,Artist,1,2,9,Normal,Normal,Normal,2.3,2.5,none
+U0504,Diana_6,26-35,Student,10,8,19,Mild,Mild,Moderate,2.6,3.5,none
+U0505,Eve_6,36-50,Teacher,19,10,24,Moderate,Moderate,Moderate,3.1,2.6,none
+U0506,Frank_6,51+,Artist,4,3,12,Normal,Normal,Normal,2.4,3.9,none
+U0507,Grace_6,18-25,Artist,12,8,17,Mild,Mild,Mild,1.8,2.1,none
+U0508,Henry_6,26-35,Teacher,25,14,32,Severe,Moderate,Severe,3.7,4.5,none
+U0509,Iris_6,26-35,Healthcare Worker,29,18,36,Extremely Severe,Severe,Extremely Severe,2.4,2.5,none
+U0510,Jack_6,51+,Student,20,17,28,Moderate,Severe,Severe,3.3,2.2,none
+U0511,Kate_6,18-25,Healthcare Worker,4,4,3,Normal,Normal,Normal,3.0,5.0,none
+U0512,Liam_6,26-35,Artist,16,13,27,Moderate,Moderate,Severe,2.2,4.8,none
+U0513,Mia_6,26-35,Teacher,10,9,14,Mild,Mild,Normal,3.7,2.7,none
+U0514,Noah_6,36-50,Student,10,9,15,Mild,Mild,Mild,3.3,2.7,none
+U0515,Olivia_6,26-35,Student,11,6,18,Mild,Normal,Mild,1.7,2.1,none
+U0516,Peter_6,26-35,Professional,4,5,8,Normal,Normal,Normal,4.0,2.4,none
+U0517,Quinn_6,26-35,Student,21,14,21,Severe,Moderate,Moderate,3.7,3.6,none
+U0518,Rachel_6,26-35,Freelancer,5,1,15,Normal,Normal,Mild,4.2,3.7,none
+U0519,Sam_6,18-25,Freelancer,5,7,3,Normal,Normal,Normal,3.5,3.1,none
+U0520,Tina_6,26-35,Teacher,12,8,20,Mild,Mild,Moderate,3.4,2.0,none
+U0521,Uma_6,18-25,Professional,0,5,9,Normal,Normal,Normal,3.3,1.3,none
+U0522,Victor_6,36-50,Healthcare Worker,10,7,18,Mild,Normal,Mild,1.8,1.0,none
+U0523,Wendy_6,36-50,Artist,22,13,30,Severe,Moderate,Severe,3.4,2.5,none
+U0524,Xavier_6,51+,Artist,7,8,17,Normal,Mild,Mild,2.6,3.2,none
+U0525,Yara_6,18-25,Professional,9,8,16,Normal,Mild,Mild,3.0,4.8,none
+U0526,Zoe_6,26-35,Freelancer,5,1,7,Normal,Normal,Normal,3.5,3.3,none
+U0527,Aaron_6,18-25,Professional,17,11,15,Moderate,Moderate,Mild,3.9,3.6,none
+U0528,Beth_6,26-35,Artist,18,9,20,Moderate,Mild,Moderate,2.8,2.5,none
+U0529,Carl_6,18-25,Student,13,9,16,Mild,Mild,Mild,2.5,2.9,none
+U0530,Dana_6,51+,Researcher,22,16,27,Severe,Severe,Severe,1.8,3.5,none
+U0531,Ethan_6,18-25,Student,12,8,19,Mild,Mild,Moderate,4.1,4.5,none
+U0532,Fiona_6,26-35,Freelancer,10,7,20,Mild,Normal,Moderate,3.6,3.7,none
+U0533,George_6,18-25,Freelancer,4,6,7,Normal,Normal,Normal,3.9,3.9,none
+U0534,Hannah_6,26-35,Student,4,3,12,Normal,Normal,Normal,1.4,3.3,none
+U0535,Ian_6,18-25,Student,17,12,27,Moderate,Moderate,Severe,2.4,4.4,none
+U0536,Julia_6,26-35,Student,21,16,31,Severe,Severe,Severe,2.4,4.0,none
+U0537,Kyle_6,51+,Student,32,20,40,Extremely Severe,Extremely Severe,Extremely Severe,3.9,3.6,none
+U0538,Laura_6,26-35,Professional,2,4,2,Normal,Normal,Normal,2.1,2.9,none
+U0539,Mark_6,36-50,Professional,7,2,5,Normal,Normal,Normal,2.8,2.2,none
+U0540,Nancy_6,26-35,Artist,5,4,7,Normal,Normal,Normal,2.9,3.9,none
+U0541,Oscar_6,26-35,Professional,4,2,7,Normal,Normal,Normal,2.9,3.0,none
+U0542,Paula_6,26-35,Freelancer,17,12,22,Moderate,Moderate,Moderate,1.6,4.5,none
+U0543,Ryan_6,18-25,Teacher,27,22,33,Severe,Extremely Severe,Severe,3.7,3.0,none
+U0544,Sara_6,18-25,Researcher,13,8,15,Mild,Mild,Mild,3.3,3.6,none
+U0545,Tom_6,36-50,Student,5,2,2,Normal,Normal,Normal,2.5,3.8,none
+U0546,Una_6,18-25,Professional,2,0,7,Normal,Normal,Normal,2.2,1.7,none
+U0547,Vince_6,26-35,Healthcare Worker,12,7,17,Mild,Normal,Mild,3.6,3.0,none
+U0548,Willa_6,36-50,Professional,4,1,3,Normal,Normal,Normal,2.7,3.3,none
+U0549,Xander_6,18-25,Professional,7,1,10,Normal,Normal,Normal,2.1,3.7,none
+U0550,Yvonne_6,51+,Professional,22,14,27,Severe,Moderate,Severe,1.8,2.7,none
+U0551,Zack_6,36-50,Researcher,18,14,21,Moderate,Moderate,Moderate,3.9,3.6,none
+U0552,Amber_6,51+,Artist,10,7,18,Mild,Normal,Mild,3.7,4.8,none
+U0553,Brian_6,18-25,Artist,22,12,25,Severe,Moderate,Moderate,4.4,1.5,none
+U0554,Clara_6,36-50,Artist,15,11,23,Moderate,Moderate,Moderate,3.1,3.6,none
+U0555,Derek_6,26-35,Healthcare Worker,26,17,31,Severe,Severe,Severe,2.4,3.7,none
+U0556,Emily_6,36-50,Freelancer,3,5,9,Normal,Normal,Normal,3.9,2.1,none
+U0557,Felix_6,26-35,Artist,20,14,17,Moderate,Moderate,Mild,4.5,4.0,none
+U0558,Gina_6,26-35,Professional,2,1,10,Normal,Normal,Normal,4.1,3.8,none
+U0559,Hugo_6,51+,Professional,6,4,7,Normal,Normal,Normal,1.3,3.0,none
+U0560,Isabel_6,36-50,Teacher,12,7,20,Mild,Normal,Moderate,2.0,3.4,none
+U0561,James_6,18-25,Teacher,4,3,13,Normal,Normal,Normal,4.6,2.5,none
+U0562,Karen_6,18-25,Healthcare Worker,4,0,11,Normal,Normal,Normal,2.9,3.9,none
+U0563,Leo_6,51+,Artist,2,5,14,Normal,Normal,Normal,3.2,3.3,none
+U0564,Monica_6,51+,Teacher,17,13,22,Moderate,Moderate,Moderate,2.3,2.6,none
+U0565,Nate_6,26-35,Student,19,15,25,Moderate,Severe,Moderate,2.0,1.4,none
+U0566,Penny_6,26-35,Student,5,3,10,Normal,Normal,Normal,2.8,2.4,none
+U0567,Paul_6,18-25,Freelancer,16,13,18,Moderate,Moderate,Mild,2.4,3.2,none
+U0568,Rita_6,36-50,Healthcare Worker,22,16,31,Severe,Severe,Severe,2.3,3.2,none
+U0569,Steve_6,18-25,Artist,14,6,13,Moderate,Normal,Normal,2.5,2.9,none
+U0570,Tara_6,18-25,Freelancer,3,6,1,Normal,Normal,Normal,4.0,3.5,none
+U0571,Ulric_6,26-35,Student,9,6,18,Normal,Normal,Mild,3.9,2.5,none
+U0572,Vera_6,51+,Student,16,12,19,Moderate,Moderate,Moderate,3.9,4.2,none
+U0573,Will_6,26-35,Student,17,14,24,Moderate,Moderate,Moderate,4.2,2.8,none
+U0574,Xena_6,18-25,Artist,14,11,23,Moderate,Moderate,Moderate,3.0,2.3,none
+U0575,Yasmin_6,26-35,Healthcare Worker,15,12,26,Moderate,Moderate,Severe,4.8,3.8,none
+U0576,Zara_6,36-50,Teacher,20,16,27,Moderate,Severe,Severe,2.1,4.0,none
+U0577,Alex_6,51+,Student,13,8,17,Mild,Mild,Mild,4.0,2.5,none
+U0578,Bella_6,26-35,Freelancer,20,9,22,Moderate,Mild,Moderate,3.4,4.8,none
+U0579,Chris_6,26-35,Healthcare Worker,10,8,18,Mild,Mild,Mild,3.8,4.3,none
+U0580,Daisy_6,51+,Artist,9,8,19,Normal,Mild,Moderate,3.5,3.1,none
+U0581,Elliot_6,36-50,Student,4,1,8,Normal,Normal,Normal,3.3,3.0,none
+U0582,Freya_6,36-50,Student,10,8,14,Mild,Mild,Normal,2.1,1.7,none
+U0583,Gavin_6,18-25,Professional,4,5,13,Normal,Normal,Normal,2.1,5.0,none
+U0584,Holly_6,18-25,Student,2,4,8,Normal,Normal,Normal,2.9,2.1,none
+U0585,Ivan_6,26-35,Student,13,15,19,Mild,Severe,Moderate,2.7,2.2,none
+U0586,Jade_6,51+,Student,16,16,26,Moderate,Severe,Severe,3.2,4.1,none
+U0587,Kirk_6,26-35,Student,11,9,16,Mild,Mild,Mild,2.4,3.0,none
+U0588,Luna_6,51+,Professional,6,3,8,Normal,Normal,Normal,4.6,2.0,none
+U0589,Max_6,18-25,Student,6,4,8,Normal,Normal,Normal,2.3,4.2,none
+U0590,Nina_6,26-35,Student,18,12,22,Moderate,Moderate,Moderate,3.3,1.0,none
+U0591,Oliver_6,26-35,Healthcare Worker,17,13,26,Moderate,Moderate,Severe,2.9,2.7,none
+U0592,Polly_6,26-35,Teacher,6,7,6,Normal,Normal,Normal,2.6,3.1,none
+U0593,Rex_6,18-25,Professional,17,14,21,Moderate,Moderate,Moderate,1.8,3.5,none
+U0594,Stella_6,36-50,Teacher,13,8,19,Mild,Mild,Moderate,3.4,4.2,none
+U0595,Tyler_6,36-50,Student,14,15,22,Moderate,Severe,Moderate,3.5,2.0,none
+U0596,Ursula_6,18-25,Student,18,9,23,Moderate,Mild,Moderate,3.1,2.6,none
+U0597,Val_6,18-25,Researcher,14,12,20,Moderate,Moderate,Moderate,3.2,2.1,none
+U0598,Wade_6,26-35,Researcher,4,2,4,Normal,Normal,Normal,2.9,2.7,none
+U0599,Xia_6,51+,Professional,6,8,16,Normal,Mild,Mild,3.2,2.5,none
+U0600,Yuki_6,26-35,Researcher,4,6,14,Normal,Normal,Normal,3.1,4.1,none
+U0601,Alice_7,18-25,Professional,38,22,35,Extremely Severe,Extremely Severe,Extremely Severe,3.7,1.7,none
+U0602,Bob_7,26-35,Professional,11,9,12,Mild,Mild,Normal,3.9,4.4,none
+U0603,Charlie_7,26-35,Professional,6,8,16,Normal,Mild,Mild,3.4,2.4,none
+U0604,Diana_7,51+,Student,13,8,16,Mild,Mild,Mild,3.4,2.7,none
+U0605,Eve_7,26-35,Professional,14,17,19,Moderate,Severe,Moderate,2.0,3.7,none
+U0606,Frank_7,51+,Freelancer,22,15,25,Severe,Severe,Moderate,3.3,3.1,none
+U0607,Grace_7,18-25,Student,3,5,6,Normal,Normal,Normal,4.3,4.3,none
+U0608,Henry_7,26-35,Healthcare Worker,24,14,30,Severe,Moderate,Severe,4.0,1.2,none
+U0609,Iris_7,36-50,Professional,11,8,17,Mild,Mild,Mild,2.3,2.3,none
+U0610,Jack_7,51+,Teacher,3,2,4,Normal,Normal,Normal,2.8,5.0,none
+U0611,Kate_7,51+,Professional,13,6,14,Mild,Normal,Normal,3.2,5.0,none
+U0612,Liam_7,26-35,Professional,14,13,20,Moderate,Moderate,Moderate,3.0,3.1,none
+U0613,Mia_7,18-25,Teacher,14,13,24,Moderate,Moderate,Moderate,4.4,3.8,none
+U0614,Noah_7,26-35,Student,19,10,22,Moderate,Moderate,Moderate,2.6,1.8,none
+U0615,Olivia_7,18-25,Teacher,13,12,22,Mild,Moderate,Moderate,2.8,4.1,none
+U0616,Peter_7,36-50,Healthcare Worker,2,4,8,Normal,Normal,Normal,2.9,2.0,none
+U0617,Quinn_7,36-50,Professional,6,7,10,Normal,Normal,Normal,1.0,3.2,none
+U0618,Rachel_7,51+,Professional,4,3,11,Normal,Normal,Normal,3.2,4.0,none
+U0619,Sam_7,18-25,Teacher,26,15,29,Severe,Severe,Severe,3.7,2.7,none
+U0620,Tina_7,26-35,Student,2,1,5,Normal,Normal,Normal,4.7,4.4,none
+U0621,Uma_7,36-50,Student,10,8,13,Mild,Mild,Normal,3.1,2.6,none
+U0622,Victor_7,36-50,Artist,20,18,31,Moderate,Severe,Severe,4.8,1.9,none
+U0623,Wendy_7,26-35,Professional,18,12,24,Moderate,Moderate,Moderate,2.7,3.0,none
+U0624,Xavier_7,36-50,Healthcare Worker,5,7,8,Normal,Normal,Normal,3.6,2.5,none
+U0625,Yara_7,18-25,Professional,15,9,24,Moderate,Mild,Moderate,3.2,4.1,none
+U0626,Zoe_7,36-50,Professional,16,10,21,Moderate,Moderate,Moderate,4.0,4.0,none
+U0627,Aaron_7,51+,Student,17,9,20,Moderate,Mild,Moderate,1.6,4.4,none
+U0628,Beth_7,51+,Student,6,0,6,Normal,Normal,Normal,3.5,2.6,none
+U0629,Carl_7,51+,Student,26,15,24,Severe,Severe,Moderate,2.1,3.2,none
+U0630,Dana_7,26-35,Artist,3,1,5,Normal,Normal,Normal,3.2,3.4,none
+U0631,Ethan_7,18-25,Researcher,10,8,17,Mild,Mild,Mild,3.1,2.2,none
+U0632,Fiona_7,26-35,Student,13,8,20,Mild,Mild,Moderate,2.7,2.5,none
+U0633,George_7,18-25,Professional,23,17,33,Severe,Severe,Severe,3.6,3.9,none
+U0634,Hannah_7,26-35,Teacher,3,5,11,Normal,Normal,Normal,2.1,3.9,none
+U0635,Ian_7,18-25,Professional,23,20,28,Severe,Extremely Severe,Severe,3.8,3.5,none
+U0636,Julia_7,18-25,Freelancer,10,9,14,Mild,Mild,Normal,5.0,3.4,none
+U0637,Kyle_7,26-35,Freelancer,12,8,15,Mild,Mild,Mild,3.3,3.6,none
+U0638,Laura_7,36-50,Professional,19,14,21,Moderate,Moderate,Moderate,2.5,3.5,none
+U0639,Mark_7,18-25,Professional,11,8,13,Mild,Mild,Normal,3.6,4.1,none
+U0640,Nancy_7,26-35,Professional,10,8,16,Mild,Mild,Mild,1.9,2.0,none
+U0641,Oscar_7,51+,Healthcare Worker,6,9,16,Normal,Mild,Mild,3.8,2.2,none
+U0642,Paula_7,18-25,Artist,32,21,36,Extremely Severe,Extremely Severe,Extremely Severe,3.8,4.7,none
+U0643,Ryan_7,18-25,Student,14,8,17,Moderate,Mild,Mild,2.6,2.3,none
+U0644,Sara_7,18-25,Teacher,15,9,14,Moderate,Mild,Normal,1.4,3.3,none
+U0645,Tom_7,36-50,Healthcare Worker,17,12,21,Moderate,Moderate,Moderate,3.5,1.9,none
+U0646,Una_7,18-25,Teacher,3,2,10,Normal,Normal,Normal,3.3,3.4,none
+U0647,Vince_7,18-25,Professional,11,7,14,Mild,Normal,Normal,1.8,4.5,none
+U0648,Willa_7,36-50,Student,6,6,7,Normal,Normal,Normal,2.4,1.4,none
+U0649,Xander_7,26-35,Healthcare Worker,19,12,21,Moderate,Moderate,Moderate,4.2,3.2,none
+U0650,Yvonne_7,51+,Professional,33,19,38,Extremely Severe,Severe,Extremely Severe,3.2,3.2,none
+U0651,Zack_7,36-50,Teacher,24,15,25,Severe,Severe,Moderate,2.6,2.7,none
+U0652,Amber_7,51+,Healthcare Worker,25,14,27,Severe,Moderate,Severe,1.6,3.6,none
+U0653,Brian_7,18-25,Professional,13,8,16,Mild,Mild,Mild,3.7,2.5,none
+U0654,Clara_7,26-35,Student,31,21,35,Extremely Severe,Extremely Severe,Extremely Severe,2.2,2.1,none
+U0655,Derek_7,36-50,Freelancer,3,4,5,Normal,Normal,Normal,3.3,3.6,none
+U0656,Emily_7,26-35,Researcher,10,9,15,Mild,Mild,Mild,3.2,3.0,none
+U0657,Felix_7,18-25,Student,7,3,6,Normal,Normal,Normal,2.3,2.4,none
+U0658,Gina_7,51+,Artist,8,7,16,Normal,Normal,Mild,2.3,3.7,none
+U0659,Hugo_7,51+,Professional,14,8,18,Moderate,Mild,Mild,4.0,3.3,none
+U0660,Isabel_7,51+,Teacher,2,0,3,Normal,Normal,Normal,2.7,3.1,none
+U0661,James_7,18-25,Student,5,3,9,Normal,Normal,Normal,2.6,4.4,none
+U0662,Karen_7,18-25,Student,10,7,17,Mild,Normal,Mild,3.9,3.6,none
+U0663,Leo_7,26-35,Artist,2,1,4,Normal,Normal,Normal,4.1,3.5,none
+U0664,Monica_7,18-25,Student,21,14,28,Severe,Moderate,Severe,2.5,2.6,none
+U0665,Nate_7,18-25,Freelancer,6,6,5,Normal,Normal,Normal,4.1,2.8,none
+U0666,Penny_7,18-25,Teacher,12,7,17,Mild,Normal,Mild,4.0,2.2,none
+U0667,Paul_7,26-35,Healthcare Worker,2,5,8,Normal,Normal,Normal,2.5,2.7,none
+U0668,Rita_7,51+,Freelancer,1,2,6,Normal,Normal,Normal,3.0,3.0,none
+U0669,Steve_7,26-35,Researcher,5,3,10,Normal,Normal,Normal,2.4,4.1,none
+U0670,Tara_7,51+,Student,17,9,22,Moderate,Mild,Moderate,2.1,1.9,none
+U0671,Ulric_7,26-35,Student,18,12,24,Moderate,Moderate,Moderate,4.2,3.0,none
+U0672,Vera_7,26-35,Researcher,1,4,9,Normal,Normal,Normal,1.5,2.4,none
+U0673,Will_7,26-35,Professional,30,15,38,Extremely Severe,Severe,Extremely Severe,2.8,4.6,none
+U0674,Xena_7,18-25,Healthcare Worker,24,14,23,Severe,Moderate,Moderate,2.7,4.1,none
+U0675,Yasmin_7,18-25,Artist,17,13,24,Moderate,Moderate,Moderate,3.5,2.9,none
+U0676,Zara_7,26-35,Professional,6,6,5,Normal,Normal,Normal,4.3,2.9,none
+U0677,Alex_7,26-35,Student,9,8,17,Normal,Mild,Mild,4.3,2.6,none
+U0678,Bella_7,51+,Healthcare Worker,15,9,22,Moderate,Mild,Moderate,2.9,3.7,none
+U0679,Chris_7,36-50,Healthcare Worker,11,9,14,Mild,Mild,Normal,3.7,2.3,none
+U0680,Daisy_7,18-25,Teacher,4,5,9,Normal,Normal,Normal,2.1,3.4,none
+U0681,Elliot_7,26-35,Professional,20,13,16,Moderate,Moderate,Mild,3.7,2.7,none
+U0682,Freya_7,18-25,Artist,23,15,27,Severe,Severe,Severe,3.3,4.3,none
+U0683,Gavin_7,18-25,Professional,13,8,18,Mild,Mild,Mild,2.7,3.3,none
+U0684,Holly_7,51+,Researcher,23,15,25,Severe,Severe,Moderate,3.4,2.4,none
+U0685,Ivan_7,18-25,Student,9,9,17,Normal,Mild,Mild,1.5,3.6,none
+U0686,Jade_7,26-35,Professional,13,8,18,Mild,Mild,Mild,2.5,3.5,none
+U0687,Kirk_7,18-25,Researcher,16,9,14,Moderate,Mild,Normal,3.3,4.5,none
+U0688,Luna_7,18-25,Student,28,22,37,Extremely Severe,Extremely Severe,Extremely Severe,3.4,4.5,none
+U0689,Max_7,36-50,Professional,6,6,7,Normal,Normal,Normal,5.0,1.3,none
+U0690,Nina_7,36-50,Professional,12,9,15,Mild,Mild,Mild,4.5,2.5,none
+U0691,Oliver_7,18-25,Healthcare Worker,12,6,17,Mild,Normal,Mild,2.8,3.2,none
+U0692,Polly_7,18-25,Researcher,13,6,15,Mild,Normal,Mild,4.3,3.5,none
+U0693,Rex_7,18-25,Professional,16,8,16,Moderate,Mild,Mild,1.7,2.5,none
+U0694,Stella_7,18-25,Student,4,2,10,Normal,Normal,Normal,3.0,1.9,none
+U0695,Tyler_7,36-50,Professional,17,11,26,Moderate,Moderate,Severe,2.8,2.7,none
+U0696,Ursula_7,18-25,Student,1,7,4,Normal,Normal,Normal,1.5,3.9,none
+U0697,Val_7,51+,Student,10,7,16,Mild,Normal,Mild,2.7,3.5,none
+U0698,Wade_7,18-25,Student,19,14,18,Moderate,Moderate,Mild,2.1,1.0,none
+U0699,Xia_7,26-35,Professional,15,10,25,Moderate,Moderate,Moderate,3.0,4.0,none
+U0700,Yuki_7,36-50,Healthcare Worker,8,5,7,Normal,Normal,Normal,3.6,5.0,none
+U0701,Alice_8,18-25,Student,7,0,9,Normal,Normal,Normal,2.6,3.3,none
+U0702,Bob_8,26-35,Student,5,6,9,Normal,Normal,Normal,3.8,3.0,none
+U0703,Charlie_8,18-25,Teacher,18,14,21,Moderate,Moderate,Moderate,2.4,3.9,none
+U0704,Diana_8,36-50,Student,13,9,15,Mild,Mild,Mild,1.8,3.1,none
+U0705,Eve_8,51+,Student,17,12,18,Moderate,Moderate,Mild,2.9,2.9,none
+U0706,Frank_8,26-35,Artist,16,15,16,Moderate,Severe,Mild,4.0,3.0,none
+U0707,Grace_8,26-35,Freelancer,23,14,28,Severe,Moderate,Severe,3.6,3.0,none
+U0708,Henry_8,36-50,Student,23,14,33,Severe,Moderate,Severe,2.9,3.4,none
+U0709,Iris_8,26-35,Freelancer,13,9,17,Mild,Mild,Mild,3.6,3.1,none
+U0710,Jack_8,18-25,Researcher,3,6,11,Normal,Normal,Normal,2.9,3.4,none
+U0711,Kate_8,18-25,Freelancer,25,16,27,Severe,Severe,Severe,2.1,2.7,none
+U0712,Liam_8,26-35,Artist,20,15,21,Moderate,Severe,Moderate,2.8,1.5,none
+U0713,Mia_8,51+,Student,2,0,8,Normal,Normal,Normal,2.5,4.7,none
+U0714,Noah_8,18-25,Artist,13,7,19,Mild,Normal,Moderate,2.8,3.2,none
+U0715,Olivia_8,26-35,Teacher,16,12,22,Moderate,Moderate,Moderate,3.0,3.3,none
+U0716,Peter_8,51+,Student,18,17,34,Moderate,Severe,Extremely Severe,3.3,3.5,none
+U0717,Quinn_8,26-35,Artist,6,7,14,Normal,Normal,Normal,3.0,1.2,none
+U0718,Rachel_8,18-25,Student,26,17,28,Severe,Severe,Severe,2.5,3.3,none
+U0719,Sam_8,26-35,Researcher,26,21,39,Severe,Extremely Severe,Extremely Severe,2.9,2.3,none
+U0720,Tina_8,18-25,Student,3,5,6,Normal,Normal,Normal,1.8,3.1,none
+U0721,Uma_8,18-25,Professional,5,3,4,Normal,Normal,Normal,3.0,3.1,none
+U0722,Victor_8,36-50,Researcher,19,13,20,Moderate,Moderate,Moderate,2.3,2.7,none
+U0723,Wendy_8,36-50,Healthcare Worker,4,1,4,Normal,Normal,Normal,4.5,3.1,none
+U0724,Xavier_8,26-35,Researcher,13,6,15,Mild,Normal,Mild,3.9,1.8,none
+U0725,Yara_8,36-50,Professional,23,17,24,Severe,Severe,Moderate,2.7,1.7,none
+U0726,Zoe_8,26-35,Freelancer,5,3,6,Normal,Normal,Normal,3.4,1.0,none
+U0727,Aaron_8,36-50,Teacher,3,2,8,Normal,Normal,Normal,3.3,4.0,none
+U0728,Beth_8,18-25,Student,4,3,10,Normal,Normal,Normal,4.5,2.8,none
+U0729,Carl_8,51+,Freelancer,21,17,18,Severe,Severe,Mild,2.7,5.0,none
+U0730,Dana_8,51+,Professional,4,7,9,Normal,Normal,Normal,3.2,3.2,none
+U0731,Ethan_8,26-35,Artist,20,11,21,Moderate,Moderate,Moderate,2.1,2.4,none
+U0732,Fiona_8,18-25,Teacher,13,15,22,Mild,Severe,Moderate,1.5,4.0,none
+U0733,George_8,26-35,Artist,21,15,24,Severe,Severe,Moderate,3.0,1.0,none
+U0734,Hannah_8,26-35,Teacher,34,23,37,Extremely Severe,Extremely Severe,Extremely Severe,3.2,2.2,none
+U0735,Ian_8,51+,Student,26,17,27,Severe,Severe,Severe,2.8,1.2,none
+U0736,Julia_8,26-35,Teacher,21,18,28,Severe,Severe,Severe,3.0,3.6,none
+U0737,Kyle_8,26-35,Professional,15,8,18,Moderate,Mild,Mild,2.3,1.8,none
+U0738,Laura_8,26-35,Student,9,6,16,Normal,Normal,Mild,2.5,2.3,none
+U0739,Mark_8,51+,Artist,28,17,37,Extremely Severe,Severe,Extremely Severe,3.0,3.9,none
+U0740,Nancy_8,18-25,Student,15,10,23,Moderate,Moderate,Moderate,2.6,3.4,none
+U0741,Oscar_8,18-25,Student,15,13,22,Moderate,Moderate,Moderate,4.0,2.8,none
+U0742,Paula_8,26-35,Student,31,23,31,Extremely Severe,Extremely Severe,Severe,2.2,3.3,none
+U0743,Ryan_8,51+,Healthcare Worker,3,2,13,Normal,Normal,Normal,2.4,2.7,none
+U0744,Sara_8,18-25,Freelancer,9,7,17,Normal,Normal,Mild,2.8,2.8,none
+U0745,Tom_8,18-25,Researcher,7,3,8,Normal,Normal,Normal,3.1,4.5,none
+U0746,Una_8,36-50,Freelancer,9,8,15,Normal,Mild,Mild,3.0,3.1,none
+U0747,Vince_8,26-35,Student,13,9,18,Mild,Mild,Mild,2.5,2.8,none
+U0748,Willa_8,26-35,Healthcare Worker,13,13,19,Mild,Moderate,Moderate,3.6,3.4,none
+U0749,Xander_8,51+,Teacher,5,6,7,Normal,Normal,Normal,1.6,4.0,none
+U0750,Yvonne_8,51+,Student,19,20,32,Moderate,Extremely Severe,Severe,2.5,3.2,none
+U0751,Zack_8,26-35,Researcher,0,3,8,Normal,Normal,Normal,1.9,2.2,none
+U0752,Amber_8,26-35,Healthcare Worker,9,8,17,Normal,Mild,Mild,3.2,2.9,none
+U0753,Brian_8,18-25,Researcher,22,17,32,Severe,Severe,Severe,3.4,4.9,none
+U0754,Clara_8,36-50,Professional,13,7,16,Mild,Normal,Mild,2.5,3.4,none
+U0755,Derek_8,18-25,Artist,12,6,17,Mild,Normal,Mild,2.4,2.7,none
+U0756,Emily_8,18-25,Student,5,0,14,Normal,Normal,Normal,3.2,2.5,none
+U0757,Felix_8,26-35,Freelancer,24,18,28,Severe,Severe,Severe,2.5,3.7,none
+U0758,Gina_8,26-35,Student,17,13,24,Moderate,Moderate,Moderate,3.3,2.7,none
+U0759,Hugo_8,26-35,Researcher,1,5,9,Normal,Normal,Normal,2.9,3.9,none
+U0760,Isabel_8,18-25,Teacher,34,22,39,Extremely Severe,Extremely Severe,Extremely Severe,2.3,3.5,none
+U0761,James_8,36-50,Researcher,16,12,25,Moderate,Moderate,Moderate,2.6,2.9,none
+U0762,Karen_8,36-50,Freelancer,8,1,1,Normal,Normal,Normal,3.2,3.7,none
+U0763,Leo_8,18-25,Researcher,10,8,16,Mild,Mild,Mild,3.2,1.2,none
+U0764,Monica_8,51+,Professional,16,15,25,Moderate,Severe,Moderate,2.3,2.2,none
+U0765,Nate_8,18-25,Student,3,3,11,Normal,Normal,Normal,3.2,3.1,none
+U0766,Penny_8,26-35,Professional,13,8,15,Mild,Mild,Mild,2.6,3.8,none
+U0767,Paul_8,26-35,Healthcare Worker,12,6,16,Mild,Normal,Mild,3.9,3.7,none
+U0768,Rita_8,18-25,Student,0,4,12,Normal,Normal,Normal,2.6,2.8,none
+U0769,Steve_8,18-25,Researcher,4,2,8,Normal,Normal,Normal,2.5,2.7,none
+U0770,Tara_8,51+,Teacher,13,6,17,Mild,Normal,Mild,4.0,4.9,none
+U0771,Ulric_8,18-25,Student,15,13,19,Moderate,Moderate,Moderate,2.7,3.5,none
+U0772,Vera_8,51+,Student,21,16,30,Severe,Severe,Severe,3.3,4.4,none
+U0773,Will_8,18-25,Freelancer,18,14,24,Moderate,Moderate,Moderate,3.4,4.0,none
+U0774,Xena_8,18-25,Teacher,8,7,17,Normal,Normal,Mild,2.3,3.7,none
+U0775,Yasmin_8,26-35,Artist,6,3,7,Normal,Normal,Normal,2.7,3.2,none
+U0776,Zara_8,26-35,Student,26,17,26,Severe,Severe,Severe,2.5,2.8,none
+U0777,Alex_8,26-35,Professional,20,13,20,Moderate,Moderate,Moderate,1.5,3.4,none
+U0778,Bella_8,51+,Healthcare Worker,4,1,4,Normal,Normal,Normal,1.7,3.6,none
+U0779,Chris_8,36-50,Researcher,24,15,30,Severe,Severe,Severe,2.4,3.2,none
+U0780,Daisy_8,18-25,Student,24,14,32,Severe,Moderate,Severe,2.5,2.4,none
+U0781,Elliot_8,18-25,Student,7,2,5,Normal,Normal,Normal,3.4,4.4,none
+U0782,Freya_8,36-50,Student,8,9,18,Normal,Mild,Mild,1.9,3.9,none
+U0783,Gavin_8,51+,Student,6,3,12,Normal,Normal,Normal,3.2,4.2,none
+U0784,Holly_8,26-35,Artist,36,22,34,Extremely Severe,Extremely Severe,Extremely Severe,3.2,2.9,none
+U0785,Ivan_8,51+,Teacher,26,13,24,Severe,Moderate,Moderate,1.5,4.2,none
+U0786,Jade_8,26-35,Researcher,21,17,31,Severe,Severe,Severe,2.9,3.1,none
+U0787,Kirk_8,26-35,Teacher,4,4,5,Normal,Normal,Normal,3.7,4.5,none
+U0788,Luna_8,26-35,Professional,1,2,10,Normal,Normal,Normal,2.1,4.7,none
+U0789,Max_8,36-50,Student,17,13,20,Moderate,Moderate,Moderate,2.3,3.4,none
+U0790,Nina_8,26-35,Teacher,23,19,29,Severe,Severe,Severe,2.5,2.9,none
+U0791,Oliver_8,18-25,Professional,3,5,7,Normal,Normal,Normal,2.5,3.2,none
+U0792,Polly_8,51+,Researcher,11,7,18,Mild,Normal,Mild,3.2,2.3,none
+U0793,Rex_8,26-35,Freelancer,25,16,34,Severe,Severe,Extremely Severe,2.6,2.5,none
+U0794,Stella_8,51+,Professional,12,7,16,Mild,Normal,Mild,3.4,1.2,none
+U0795,Tyler_8,18-25,Professional,36,21,40,Extremely Severe,Extremely Severe,Extremely Severe,2.7,4.0,none
+U0796,Ursula_8,26-35,Researcher,11,10,19,Mild,Moderate,Moderate,2.1,3.0,none
+U0797,Val_8,18-25,Student,3,2,5,Normal,Normal,Normal,3.9,2.1,none
+U0798,Wade_8,18-25,Professional,32,24,34,Extremely Severe,Extremely Severe,Extremely Severe,3.0,2.9,none
+U0799,Xia_8,18-25,Student,11,8,19,Mild,Mild,Moderate,2.5,4.7,none
+U0800,Yuki_8,26-35,Professional,3,4,12,Normal,Normal,Normal,2.5,2.5,none
+U0801,Alice_9,26-35,Student,16,14,24,Moderate,Moderate,Moderate,2.7,2.7,none
+U0802,Bob_9,18-25,Artist,15,9,14,Moderate,Mild,Normal,1.4,1.0,none
+U0803,Charlie_9,51+,Teacher,20,11,21,Moderate,Moderate,Moderate,5.0,3.1,none
+U0804,Diana_9,18-25,Student,1,3,10,Normal,Normal,Normal,3.0,3.8,none
+U0805,Eve_9,26-35,Freelancer,15,12,20,Moderate,Moderate,Moderate,2.8,2.4,none
+U0806,Frank_9,51+,Professional,21,11,21,Severe,Moderate,Moderate,3.6,3.1,none
+U0807,Grace_9,36-50,Freelancer,18,7,18,Moderate,Normal,Mild,3.8,2.4,none
+U0808,Henry_9,51+,Healthcare Worker,33,22,33,Extremely Severe,Extremely Severe,Severe,3.7,2.3,none
+U0809,Iris_9,18-25,Teacher,19,15,18,Moderate,Severe,Mild,2.4,4.0,none
+U0810,Jack_9,51+,Student,6,1,5,Normal,Normal,Normal,1.8,2.8,none
+U0811,Kate_9,26-35,Student,1,1,7,Normal,Normal,Normal,3.2,3.6,none
+U0812,Liam_9,26-35,Student,16,12,21,Moderate,Moderate,Moderate,2.2,1.9,none
+U0813,Mia_9,26-35,Researcher,16,14,22,Moderate,Moderate,Moderate,3.5,3.1,none
+U0814,Noah_9,26-35,Researcher,26,15,31,Severe,Severe,Severe,3.3,3.5,none
+U0815,Olivia_9,26-35,Teacher,4,1,14,Normal,Normal,Normal,3.8,3.2,none
+U0816,Peter_9,26-35,Student,22,18,31,Severe,Severe,Severe,3.0,2.9,none
+U0817,Quinn_9,26-35,Student,9,8,16,Normal,Mild,Mild,4.6,3.1,none
+U0818,Rachel_9,26-35,Student,7,1,9,Normal,Normal,Normal,3.2,4.1,none
+U0819,Sam_9,36-50,Artist,4,4,9,Normal,Normal,Normal,2.5,3.9,none
+U0820,Tina_9,51+,Healthcare Worker,22,16,30,Severe,Severe,Severe,4.3,2.9,none
+U0821,Uma_9,18-25,Teacher,8,7,8,Normal,Normal,Normal,2.3,3.7,none
+U0822,Victor_9,18-25,Professional,3,2,9,Normal,Normal,Normal,1.8,4.4,none
+U0823,Wendy_9,26-35,Researcher,18,9,24,Moderate,Mild,Moderate,2.2,3.4,none
+U0824,Xavier_9,26-35,Freelancer,6,1,7,Normal,Normal,Normal,3.8,3.9,none
+U0825,Yara_9,18-25,Teacher,7,3,8,Normal,Normal,Normal,3.6,3.2,none
+U0826,Zoe_9,26-35,Healthcare Worker,12,8,18,Mild,Mild,Mild,2.1,1.0,none
+U0827,Aaron_9,18-25,Healthcare Worker,22,18,29,Severe,Severe,Severe,1.3,1.8,none
+U0828,Beth_9,18-25,Student,18,8,21,Moderate,Mild,Moderate,2.8,2.8,none
+U0829,Carl_9,36-50,Student,21,15,23,Severe,Severe,Moderate,2.7,3.2,none
+U0830,Dana_9,36-50,Freelancer,11,6,17,Mild,Normal,Mild,3.4,3.1,none
+U0831,Ethan_9,18-25,Healthcare Worker,9,7,19,Normal,Normal,Moderate,2.8,3.8,none
+U0832,Fiona_9,26-35,Student,2,6,7,Normal,Normal,Normal,3.6,1.5,none
+U0833,George_9,18-25,Student,3,4,7,Normal,Normal,Normal,3.7,2.4,none
+U0834,Hannah_9,18-25,Professional,25,16,28,Severe,Severe,Severe,2.3,3.2,none
+U0835,Ian_9,18-25,Student,5,3,3,Normal,Normal,Normal,3.3,4.1,none
+U0836,Julia_9,36-50,Student,36,23,32,Extremely Severe,Extremely Severe,Severe,3.5,3.8,none
+U0837,Kyle_9,51+,Student,9,8,14,Normal,Mild,Normal,1.8,3.4,none
+U0838,Laura_9,18-25,Artist,7,4,8,Normal,Normal,Normal,3.9,3.7,none
+U0839,Mark_9,26-35,Researcher,9,8,17,Normal,Mild,Mild,3.3,3.2,none
+U0840,Nancy_9,36-50,Artist,8,9,16,Normal,Mild,Mild,3.9,5.0,none
+U0841,Oscar_9,51+,Researcher,3,4,7,Normal,Normal,Normal,3.2,2.3,none
+U0842,Paula_9,51+,Researcher,9,8,13,Normal,Mild,Normal,3.2,3.2,none
+U0843,Ryan_9,26-35,Healthcare Worker,3,3,8,Normal,Normal,Normal,4.0,5.0,none
+U0844,Sara_9,18-25,Artist,6,2,5,Normal,Normal,Normal,1.9,3.6,none
+U0845,Tom_9,18-25,Artist,5,4,6,Normal,Normal,Normal,2.7,3.6,none
+U0846,Una_9,26-35,Professional,15,10,23,Moderate,Moderate,Moderate,3.5,2.8,none
+U0847,Vince_9,26-35,Researcher,4,2,10,Normal,Normal,Normal,2.9,2.6,none
+U0848,Willa_9,18-25,Healthcare Worker,24,14,25,Severe,Moderate,Moderate,2.5,3.1,none
+U0849,Xander_9,36-50,Student,10,7,18,Mild,Normal,Mild,2.5,2.8,none
+U0850,Yvonne_9,26-35,Artist,12,7,15,Mild,Normal,Mild,3.5,4.0,none
+U0851,Zack_9,26-35,Student,2,2,5,Normal,Normal,Normal,3.2,4.4,none
+U0852,Amber_9,18-25,Healthcare Worker,19,13,30,Moderate,Moderate,Severe,3.9,2.9,none
+U0853,Brian_9,26-35,Student,19,13,22,Moderate,Moderate,Moderate,2.3,4.0,none
+U0854,Clara_9,51+,Student,19,13,20,Moderate,Moderate,Moderate,2.6,3.4,none
+U0855,Derek_9,36-50,Researcher,10,7,16,Mild,Normal,Mild,2.8,5.0,none
+U0856,Emily_9,36-50,Teacher,19,11,24,Moderate,Moderate,Moderate,3.0,4.3,none
+U0857,Felix_9,26-35,Researcher,31,20,32,Extremely Severe,Extremely Severe,Severe,4.0,5.0,none
+U0858,Gina_9,36-50,Student,19,11,18,Moderate,Moderate,Mild,2.7,3.6,none
+U0859,Hugo_9,26-35,Researcher,26,17,26,Severe,Severe,Severe,3.5,4.2,none
+U0860,Isabel_9,51+,Professional,11,8,17,Mild,Mild,Mild,2.7,2.3,none
+U0861,James_9,26-35,Researcher,34,20,35,Extremely Severe,Extremely Severe,Extremely Severe,3.7,3.4,none
+U0862,Karen_9,26-35,Freelancer,10,8,19,Mild,Mild,Moderate,4.2,3.1,none
+U0863,Leo_9,18-25,Student,7,7,17,Normal,Normal,Mild,1.2,2.7,none
+U0864,Monica_9,26-35,Student,13,7,18,Mild,Normal,Mild,3.2,3.1,none
+U0865,Nate_9,26-35,Student,21,14,22,Severe,Moderate,Moderate,2.7,5.0,none
+U0866,Penny_9,36-50,Student,12,8,17,Mild,Mild,Mild,2.5,3.2,none
+U0867,Paul_9,18-25,Professional,5,7,3,Normal,Normal,Normal,3.0,2.6,none
+U0868,Rita_9,51+,Artist,5,0,7,Normal,Normal,Normal,3.6,2.1,none
+U0869,Steve_9,26-35,Freelancer,16,14,21,Moderate,Moderate,Moderate,2.7,3.3,none
+U0870,Tara_9,36-50,Researcher,18,12,21,Moderate,Moderate,Moderate,3.1,2.7,none
+U0871,Ulric_9,18-25,Healthcare Worker,23,17,31,Severe,Severe,Severe,2.9,2.8,none
+U0872,Vera_9,26-35,Professional,11,8,13,Mild,Mild,Normal,4.8,2.1,none
+U0873,Will_9,26-35,Teacher,11,7,17,Mild,Normal,Mild,3.8,3.7,none
+U0874,Xena_9,26-35,Researcher,23,17,31,Severe,Severe,Severe,3.6,5.0,none
+U0875,Yasmin_9,18-25,Healthcare Worker,3,0,11,Normal,Normal,Normal,4.6,2.4,none
+U0876,Zara_9,18-25,Healthcare Worker,19,12,20,Moderate,Moderate,Moderate,3.7,4.2,none
+U0877,Alex_9,18-25,Freelancer,32,17,34,Extremely Severe,Severe,Extremely Severe,1.5,3.6,none
+U0878,Bella_9,51+,Teacher,25,17,28,Severe,Severe,Severe,2.0,2.2,none
+U0879,Chris_9,26-35,Professional,13,8,13,Mild,Mild,Normal,2.6,1.5,none
+U0880,Daisy_9,51+,Researcher,21,16,34,Severe,Severe,Extremely Severe,3.0,3.5,none
+U0881,Elliot_9,18-25,Healthcare Worker,3,0,6,Normal,Normal,Normal,3.7,4.6,none
+U0882,Freya_9,18-25,Researcher,24,16,32,Severe,Severe,Severe,3.3,4.5,none
+U0883,Gavin_9,51+,Student,14,12,22,Moderate,Moderate,Moderate,2.7,3.6,none
+U0884,Holly_9,26-35,Professional,11,8,15,Mild,Mild,Mild,1.5,2.6,none
+U0885,Ivan_9,51+,Teacher,24,14,28,Severe,Moderate,Severe,2.9,2.1,none
+U0886,Jade_9,18-25,Researcher,15,10,22,Moderate,Moderate,Moderate,3.8,3.7,none
+U0887,Kirk_9,51+,Student,17,14,22,Moderate,Moderate,Moderate,2.2,3.4,none
+U0888,Luna_9,26-35,Freelancer,9,8,13,Normal,Mild,Normal,2.9,3.7,none
+U0889,Max_9,26-35,Healthcare Worker,12,10,15,Mild,Moderate,Mild,1.7,2.9,none
+U0890,Nina_9,18-25,Freelancer,2,4,6,Normal,Normal,Normal,2.8,3.2,none
+U0891,Oliver_9,18-25,Teacher,5,4,7,Normal,Normal,Normal,3.1,3.7,none
+U0892,Polly_9,36-50,Healthcare Worker,18,9,22,Moderate,Mild,Moderate,3.4,3.9,none
+U0893,Rex_9,18-25,Healthcare Worker,31,20,38,Extremely Severe,Extremely Severe,Extremely Severe,2.5,2.8,none
+U0894,Stella_9,26-35,Student,25,18,29,Severe,Severe,Severe,2.9,3.0,none
+U0895,Tyler_9,18-25,Healthcare Worker,17,14,18,Moderate,Moderate,Mild,3.3,3.2,none
+U0896,Ursula_9,26-35,Professional,0,3,17,Normal,Normal,Mild,2.9,2.2,none
+U0897,Val_9,18-25,Student,16,9,14,Moderate,Mild,Normal,4.1,2.3,none
+U0898,Wade_9,18-25,Student,16,11,19,Moderate,Moderate,Moderate,3.4,4.8,none
+U0899,Xia_9,26-35,Student,14,6,17,Moderate,Normal,Mild,3.2,2.5,none
+U0900,Yuki_9,36-50,Freelancer,14,11,23,Moderate,Moderate,Moderate,2.3,4.8,none
+U0901,Alice_10,51+,Freelancer,11,9,14,Mild,Mild,Normal,1.8,3.6,none
+U0902,Bob_10,18-25,Healthcare Worker,5,2,6,Normal,Normal,Normal,3.1,3.9,none
+U0903,Charlie_10,36-50,Student,8,9,16,Normal,Mild,Mild,4.1,3.9,none
+U0904,Diana_10,36-50,Teacher,11,8,17,Mild,Mild,Mild,3.2,2.7,none
+U0905,Eve_10,18-25,Student,4,0,6,Normal,Normal,Normal,3.3,2.8,none
+U0906,Frank_10,18-25,Researcher,6,8,17,Normal,Mild,Mild,3.5,4.1,none
+U0907,Grace_10,18-25,Artist,16,15,23,Moderate,Severe,Moderate,2.3,5.0,none
+U0908,Henry_10,18-25,Teacher,12,8,18,Mild,Mild,Mild,2.9,2.4,none
+U0909,Iris_10,26-35,Professional,17,15,21,Moderate,Severe,Moderate,3.4,4.0,none
+U0910,Jack_10,26-35,Researcher,23,18,30,Severe,Severe,Severe,2.2,2.7,none
+U0911,Kate_10,26-35,Artist,1,2,6,Normal,Normal,Normal,2.7,3.8,none
+U0912,Liam_10,18-25,Freelancer,8,9,14,Normal,Mild,Normal,3.2,3.6,none
+U0913,Mia_10,18-25,Professional,10,8,15,Mild,Mild,Mild,2.3,2.7,none
+U0914,Noah_10,26-35,Professional,5,0,10,Normal,Normal,Normal,4.0,5.0,none
+U0915,Olivia_10,26-35,Researcher,18,11,25,Moderate,Moderate,Moderate,2.1,3.7,none
+U0916,Peter_10,26-35,Artist,0,2,10,Normal,Normal,Normal,3.8,3.7,none
+U0917,Quinn_10,26-35,Teacher,19,14,25,Moderate,Moderate,Moderate,2.6,3.7,none
+U0918,Rachel_10,36-50,Freelancer,14,9,19,Moderate,Mild,Moderate,4.1,3.0,none
+U0919,Sam_10,26-35,Student,27,17,31,Severe,Severe,Severe,2.2,3.5,none
+U0920,Tina_10,18-25,Researcher,12,8,14,Mild,Mild,Normal,2.4,2.3,none
+U0921,Uma_10,18-25,Professional,21,9,21,Severe,Mild,Moderate,2.5,3.0,none
+U0922,Victor_10,18-25,Artist,7,3,10,Normal,Normal,Normal,3.2,2.1,none
+U0923,Wendy_10,26-35,Freelancer,23,14,29,Severe,Moderate,Severe,3.9,1.8,none
+U0924,Xavier_10,18-25,Freelancer,16,11,21,Moderate,Moderate,Moderate,3.2,4.3,none
+U0925,Yara_10,18-25,Professional,29,19,35,Extremely Severe,Severe,Extremely Severe,2.8,4.0,none
+U0926,Zoe_10,18-25,Student,22,15,31,Severe,Severe,Severe,2.2,3.6,none
+U0927,Aaron_10,26-35,Artist,13,7,17,Mild,Normal,Mild,3.0,3.1,none
+U0928,Beth_10,36-50,Student,10,6,16,Mild,Normal,Mild,3.5,3.5,none
+U0929,Carl_10,26-35,Student,24,17,33,Severe,Severe,Severe,3.2,2.5,none
+U0930,Dana_10,18-25,Artist,8,6,15,Normal,Normal,Mild,3.0,3.3,none
+U0931,Ethan_10,26-35,Student,3,3,7,Normal,Normal,Normal,2.7,1.0,none
+U0932,Fiona_10,26-35,Student,14,11,27,Moderate,Moderate,Severe,2.0,2.2,none
+U0933,George_10,26-35,Freelancer,17,15,21,Moderate,Severe,Moderate,2.6,3.1,none
+U0934,Hannah_10,26-35,Professional,15,9,15,Moderate,Mild,Mild,2.5,2.6,none
+U0935,Ian_10,26-35,Student,18,12,22,Moderate,Moderate,Moderate,2.3,2.8,none
+U0936,Julia_10,26-35,Professional,15,9,15,Moderate,Mild,Mild,2.4,3.3,none
+U0937,Kyle_10,18-25,Healthcare Worker,6,0,9,Normal,Normal,Normal,2.8,2.6,none
+U0938,Laura_10,18-25,Healthcare Worker,23,12,30,Severe,Moderate,Severe,2.0,2.8,none
+U0939,Mark_10,18-25,Student,17,13,23,Moderate,Moderate,Moderate,2.4,4.0,none
+U0940,Nancy_10,18-25,Professional,10,7,15,Mild,Normal,Mild,2.4,4.0,none
+U0941,Oscar_10,26-35,Student,16,10,24,Moderate,Moderate,Moderate,3.0,2.3,none
+U0942,Paula_10,51+,Artist,10,9,16,Mild,Mild,Mild,2.9,3.8,none
+U0943,Ryan_10,26-35,Researcher,8,8,13,Normal,Mild,Normal,3.6,3.6,none
+U0944,Sara_10,18-25,Student,12,8,16,Mild,Mild,Mild,2.5,2.6,none
+U0945,Tom_10,18-25,Professional,3,1,9,Normal,Normal,Normal,3.6,3.8,none
+U0946,Una_10,18-25,Student,4,4,4,Normal,Normal,Normal,2.6,3.3,none
+U0947,Vince_10,36-50,Researcher,14,9,13,Moderate,Mild,Normal,3.9,3.1,none
+U0948,Willa_10,36-50,Teacher,2,3,10,Normal,Normal,Normal,3.9,2.5,none
+U0949,Xander_10,18-25,Professional,13,7,17,Mild,Normal,Mild,3.7,3.3,none
+U0950,Yvonne_10,18-25,Professional,16,11,20,Moderate,Moderate,Moderate,2.9,4.7,none
+U0951,Zack_10,18-25,Student,12,6,18,Mild,Normal,Mild,3.8,3.2,none
+U0952,Amber_10,18-25,Teacher,12,8,17,Mild,Mild,Mild,2.4,2.9,none
+U0953,Brian_10,51+,Researcher,26,14,25,Severe,Moderate,Moderate,2.9,2.6,none
+U0954,Clara_10,26-35,Student,11,6,19,Mild,Normal,Moderate,3.6,3.7,none
+U0955,Derek_10,18-25,Artist,18,12,23,Moderate,Moderate,Moderate,3.2,2.6,none
+U0956,Emily_10,36-50,Freelancer,7,8,16,Normal,Mild,Mild,3.1,3.9,none
+U0957,Felix_10,18-25,Freelancer,16,13,21,Moderate,Moderate,Moderate,3.1,3.6,none
+U0958,Gina_10,36-50,Professional,16,10,17,Moderate,Moderate,Mild,2.4,2.6,none
+U0959,Hugo_10,51+,Student,3,5,8,Normal,Normal,Normal,1.9,2.9,none
+U0960,Isabel_10,26-35,Teacher,5,6,6,Normal,Normal,Normal,4.1,3.4,none
+U0961,James_10,18-25,Researcher,33,24,34,Extremely Severe,Extremely Severe,Extremely Severe,3.0,3.2,none
+U0962,Karen_10,26-35,Professional,4,1,11,Normal,Normal,Normal,4.4,4.7,none
+U0963,Leo_10,36-50,Teacher,10,9,19,Mild,Mild,Moderate,1.1,4.2,none
+U0964,Monica_10,18-25,Student,12,7,17,Mild,Normal,Mild,2.9,3.8,none
+U0965,Nate_10,36-50,Healthcare Worker,19,12,24,Moderate,Moderate,Moderate,3.0,1.5,none
+U0966,Penny_10,18-25,Freelancer,0,2,10,Normal,Normal,Normal,3.0,3.8,none
+U0967,Paul_10,36-50,Freelancer,16,13,21,Moderate,Moderate,Moderate,3.1,2.1,none
+U0968,Rita_10,36-50,Freelancer,4,1,2,Normal,Normal,Normal,2.5,3.4,none
+U0969,Steve_10,18-25,Teacher,12,7,18,Mild,Normal,Mild,4.6,2.4,none
+U0970,Tara_10,26-35,Student,19,11,14,Moderate,Moderate,Normal,3.9,4.6,none
+U0971,Ulric_10,51+,Teacher,11,9,15,Mild,Mild,Mild,2.3,4.2,none
+U0972,Vera_10,26-35,Professional,5,4,7,Normal,Normal,Normal,3.1,3.6,none
+U0973,Will_10,51+,Student,5,2,13,Normal,Normal,Normal,2.5,3.0,none
+U0974,Xena_10,26-35,Student,6,5,8,Normal,Normal,Normal,3.5,4.8,none
+U0975,Yasmin_10,26-35,Professional,23,14,28,Severe,Moderate,Severe,3.8,2.5,none
+U0976,Zara_10,51+,Student,4,4,8,Normal,Normal,Normal,2.7,1.6,none
+U0977,Alex_10,36-50,Healthcare Worker,17,9,24,Moderate,Mild,Moderate,3.3,4.5,none
+U0978,Bella_10,18-25,Student,6,2,11,Normal,Normal,Normal,3.1,3.5,none
+U0979,Chris_10,26-35,Freelancer,16,9,26,Moderate,Mild,Severe,3.5,2.9,none
+U0980,Daisy_10,26-35,Student,24,10,33,Severe,Moderate,Severe,3.6,1.6,none
+U0981,Elliot_10,51+,Artist,21,10,25,Severe,Moderate,Moderate,3.8,1.7,none
+U0982,Freya_10,51+,Artist,3,5,8,Normal,Normal,Normal,4.1,2.6,none
+U0983,Gavin_10,51+,Student,4,3,6,Normal,Normal,Normal,3.5,1.8,none
+U0984,Holly_10,18-25,Student,11,9,17,Mild,Mild,Mild,1.6,4.4,none
+U0985,Ivan_10,51+,Artist,13,10,19,Mild,Moderate,Moderate,1.0,3.6,none
+U0986,Jade_10,18-25,Professional,10,8,15,Mild,Mild,Mild,2.2,2.9,none
+U0987,Kirk_10,18-25,Student,10,7,13,Mild,Normal,Normal,1.9,3.0,none
+U0988,Luna_10,18-25,Student,7,3,3,Normal,Normal,Normal,3.3,2.3,none
+U0989,Max_10,26-35,Professional,18,12,20,Moderate,Moderate,Moderate,2.7,3.8,none
+U0990,Nina_10,36-50,Teacher,31,21,38,Extremely Severe,Extremely Severe,Extremely Severe,3.0,3.0,none
+U0991,Oliver_10,36-50,Artist,0,4,15,Normal,Normal,Mild,2.6,3.5,none
+U0992,Polly_10,26-35,Student,13,8,14,Mild,Mild,Normal,3.7,3.6,none
+U0993,Rex_10,51+,Professional,5,4,7,Normal,Normal,Normal,3.3,2.9,none
+U0994,Stella_10,26-35,Healthcare Worker,18,11,27,Moderate,Moderate,Severe,2.4,2.7,none
+U0995,Tyler_10,18-25,Healthcare Worker,16,7,18,Moderate,Normal,Mild,2.1,3.3,none
+U0996,Ursula_10,26-35,Student,5,5,7,Normal,Normal,Normal,2.5,2.9,none
+U0997,Val_10,26-35,Teacher,20,16,18,Moderate,Severe,Mild,3.4,5.0,none
+U0998,Wade_10,26-35,Artist,5,2,9,Normal,Normal,Normal,3.0,2.3,none
+U0999,Xia_10,26-35,Healthcare Worker,0,3,5,Normal,Normal,Normal,3.3,1.7,none
+U1000,Yuki_10,18-25,Artist,22,15,32,Severe,Severe,Severe,3.0,3.7,none

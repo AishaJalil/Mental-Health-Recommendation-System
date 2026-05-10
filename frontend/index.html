@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindWell – Stress Activity Recommender</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+<!-- ======== Header ======== -->
+<header>
+  <div class="header-inner">
+
+    <div class="logo">
+      <div class="logo-mark">🧘</div>
+      <div>
+        <div class="logo-text">MindWell</div>
+        <div class="logo-sub">Stress Activity Recommender</div>
+      </div>
+    </div>
+
+    <!-- Primary Navigation -->
+    <nav class="primary-nav">
+      <button class="nav-primary-btn active" data-section="recommendations">
+        📋 Recommendations
+      </button>
+      <button class="nav-primary-btn" data-section="condition">
+        🎯 My Condition
+      </button>
+      <button class="nav-primary-btn" data-section="analysis">
+        📊 Analysis
+      </button>
+    </nav>
+
+    <div class="header-user">
+      <label for="userSelect">User:</label>
+      <select id="userSelect"></select>
+      <span class="user-badge" id="headerBadge">Loading…</span>
+    </div>
+
+  </div>
+</header>
+
+<!-- ======== Stats bar ======== -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <span class="stat-icon">👥</span>
+      <div class="stat-info">
+        <span class="stat-value" id="statUsers">—</span>
+        <span class="stat-label">Users</span>
+      </div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-icon">🎯</span>
+      <div class="stat-info">
+        <span class="stat-value" id="statProducts">—</span>
+        <span class="stat-label">Activities</span>
+      </div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-icon">⭐</span>
+      <div class="stat-info">
+        <span class="stat-value" id="statRatings">—</span>
+        <span class="stat-label">Ratings</span>
+      </div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-icon">🕳️</span>
+      <div class="stat-info">
+        <span class="stat-value" id="statSparsity">—</span>
+        <span class="stat-label">Sparsity</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======== Main layout ======== -->
+<div class="main">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+
+    <!-- User Profile -->
+    <div class="card">
+      <div class="card-header">User Profile</div>
+      <div class="profile-avatar-wrap">
+        <div class="profile-avatar" id="profileAvatar">?</div>
+      </div>
+      <div class="profile-name" id="profileName">Loading…</div>
+      <div class="profile-meta" id="profileMeta"></div>
+      <div class="profile-dass"  id="profileDass"></div>
+      <div class="profile-tags"  id="profileTags"></div>
+    </div>
+
+    <!-- Activity History -->
+    <div class="card">
+      <div class="card-header">Activity History</div>
+      <div class="history-list" id="historyList">
+        <div class="loading"><div class="spinner"></div></div>
+      </div>
+    </div>
+
+    <!-- Algorithm Legend -->
+    <div class="card">
+      <div class="card-header">Recommendation Models</div>
+      <div class="algo-legend">
+        <div class="legend-item">
+          <div class="legend-dot" style="background:#16a34a;"></div>
+          <div><strong>Hybrid</strong><span>50% CBF + 50% SVD</span></div>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot" style="background:#0d9488;"></div>
+          <div><strong>SVD-CF</strong><span>Surprise library SVD</span></div>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot" style="background:#ea580c;"></div>
+          <div><strong>Content-Based</strong><span>TF-IDF + cosine similarity</span></div>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot" style="background:#2563eb;"></div>
+          <div><strong>User-CF</strong><span>Neighbourhood-based CF</span></div>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot" style="background:#7c3aed;"></div>
+          <div><strong>Item-CF</strong><span>Item similarity</span></div>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot" style="background:#db2777;"></div>
+          <div><strong>Neural CF</strong><span>NeuMF (GMF + MLP)</span></div>
+        </div>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- Right Panel -->
+  <div class="right-panel">
+
+    <!-- Sub-nav: Algorithm tabs (visible by default) -->
+    <div class="sub-nav" id="algoNav">
+      <button class="tab-btn active" data-tab="hybrid">Hybrid</button>
+      <button class="tab-btn" data-tab="svd-cf">SVD-CF</button>
+      <button class="tab-btn" data-tab="content">Content-Based</button>
+      <button class="tab-btn" data-tab="user-cf">User-CF</button>
+      <button class="tab-btn" data-tab="item-cf">Item-CF</button>
+      <button class="tab-btn" data-tab="neural-cf">Neural CF</button>
+      <button class="tab-btn" data-tab="popular">Popular</button>
+    </div>
+
+    <!-- Sub-nav: Analysis tabs (hidden by default) -->
+    <div class="sub-nav" id="analysisNav" style="display:none;">
+      <button class="tab-btn" data-tab="compare">🔄 Compare Models</button>
+      <button class="tab-btn" data-tab="evaluation">📊 Evaluation Metrics</button>
+      <button class="tab-btn" data-tab="fairness">⚖️ Fairness Analysis</button>
+    </div>
+
+    <!-- Algo info bar -->
+    <div class="algo-info" id="algoInfoBar">
+      <span class="algo-badge" id="algoLabel">Hybrid</span>
+      <span class="algo-desc"  id="algoDesc">Blends all models for maximum accuracy.</span>
+    </div>
+
+    <!-- Recommendation section -->
+    <div id="recSection">
+      <div class="products-header">
+        <span class="products-title">Recommended Activities</span>
+        <span class="products-count" id="recCount"></span>
+      </div>
+      <div class="products-grid" id="productsGrid">
+        <div class="loading"><div class="spinner"></div><span>Loading…</span></div>
+      </div>
+    </div>
+
+    <!-- My Condition section (hidden by default) -->
+    <div id="conditionSection" style="display:none;">
+      <div class="condition-form card">
+
+        <!-- Mode toggle -->
+        <div class="mode-toggle">
+          <button class="mode-btn active" id="modeNlpBtn">💬 Describe in Words</button>
+          <button class="mode-btn" id="modeSlidersBtn">🔢 Enter DASS Scores</button>
+        </div>
+
+        <!-- NLP panel -->
+        <div id="nlpPanel">
+          <p class="condition-intro">
+            Tell us how you've been feeling lately — in plain words, no medical terms needed.
+          </p>
+          <textarea id="nlpInput" class="nlp-textarea"
+            placeholder="e.g. I've been feeling really anxious lately, can't sleep well, feel overwhelmed at work and keep worrying about everything…"
+            rows="4" maxlength="2000"></textarea>
+          <div class="nlp-char-count"><span id="charCount">0</span> / 2000</div>
+
+          <div class="condition-actions">
+            <button class="get-recs-btn" id="analyzeBtn">Analyze My Condition</button>
+          </div>
+
+          <div id="nlpResult" style="display:none;">
+            <div class="nlp-result-box">
+              <div class="nlp-explanation" id="nlpExplanation"></div>
+              <div class="nlp-symptoms-wrap">
+                <span class="nlp-symptoms-label">Detected signals:</span>
+                <div class="nlp-symptoms" id="nlpSymptoms"></div>
+              </div>
+              <div class="nlp-scores" id="nlpScores"></div>
+              <div class="nlp-source-badge" id="nlpSourceBadge"></div>
+            </div>
+            <div class="condition-actions" style="margin-top:16px;">
+              <button class="get-recs-btn" id="getRecsFromNlp">Get My Recommendations</button>
+              <button class="reset-btn"    id="resetNlp">Try Again</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sliders panel -->
+        <div id="slidersPanel" style="display:none;">
+          <p class="condition-intro">Move the sliders to match your DASS scores (0–42 each).</p>
+
+          <div class="condition-sliders">
+
+            <div class="slider-group">
+              <div class="slider-header">
+                <span class="slider-label">Depression</span>
+                <div class="slider-right">
+                  <span class="slider-value" id="depVal">0</span>
+                  <span class="slider-max">/42</span>
+                  <span class="sev-badge" id="depSev" data-sev="Normal">Normal</span>
+                </div>
+              </div>
+              <input type="range" class="condition-range dep-range" id="depSlider" min="0" max="42" value="0">
+              <div class="slider-ticks">
+                <span>0</span><span>10</span><span>14</span><span>21</span><span>28</span><span>42</span>
+              </div>
+            </div>
+
+            <div class="slider-group">
+              <div class="slider-header">
+                <span class="slider-label">Anxiety</span>
+                <div class="slider-right">
+                  <span class="slider-value" id="anxVal">0</span>
+                  <span class="slider-max">/42</span>
+                  <span class="sev-badge" id="anxSev" data-sev="Normal">Normal</span>
+                </div>
+              </div>
+              <input type="range" class="condition-range anx-range" id="anxSlider" min="0" max="42" value="0">
+              <div class="slider-ticks">
+                <span>0</span><span>8</span><span>10</span><span>15</span><span>20</span><span>42</span>
+              </div>
+            </div>
+
+            <div class="slider-group">
+              <div class="slider-header">
+                <span class="slider-label">Stress</span>
+                <div class="slider-right">
+                  <span class="slider-value" id="strVal">0</span>
+                  <span class="slider-max">/42</span>
+                  <span class="sev-badge" id="strSev" data-sev="Normal">Normal</span>
+                </div>
+              </div>
+              <input type="range" class="condition-range str-range" id="strSlider" min="0" max="42" value="0">
+              <div class="slider-ticks">
+                <span>0</span><span>15</span><span>19</span><span>26</span><span>34</span><span>42</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="condition-actions">
+            <button class="get-recs-btn" id="getConditionRecs">Get My Recommendations</button>
+            <button class="reset-btn"    id="resetCondition">Reset</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="conditionResults" style="display:none;">
+        <div class="rec-toolbar">
+          <div class="products-header" style="margin-bottom:0;">
+            <span class="products-title">Recommended Activities</span>
+            <span class="products-count" id="conditionCount"></span>
+          </div>
+          <div class="model-selector-wrap">
+            <label for="conditionModelSel">Model:</label>
+            <select id="conditionModelSel">
+              <option value="condition-based">⚙️ Condition-Based (default)</option>
+              <option value="content-based">🧠 SBERT Content-Based</option>
+              <option value="hybrid">🔀 MindMatch Hybrid</option>
+              <option value="svd-cf">📊 SVD Collaborative</option>
+              <option value="user-cf">👥 User-Based CF</option>
+              <option value="neural-cf">🔬 Neural CF (NeuMF)</option>
+            </select>
+          </div>
+        </div>
+        <div id="nearestUserBanner" style="display:none;" class="nearest-user-banner"></div>
+        <div class="products-grid" id="conditionGrid"></div>
+      </div>
+    </div>
+
+    <!-- Evaluation section (hidden by default) -->
+    <div id="evalSection" style="display:none;" class="eval-section">
+      <div class="products-header" style="margin-bottom:16px;">
+        <span class="products-title">Model Evaluation</span>
+        <span class="products-count">Offline test set · K=10</span>
+      </div>
+      <div id="evalContainer">
+        <div class="loading"><div class="spinner"></div></div>
+      </div>
+    </div>
+
+    <!-- Fairness section (hidden by default) -->
+    <div id="fairnessSection" style="display:none;">
+      <div class="products-header" style="margin-bottom:16px;">
+        <span class="products-title">Fairness Analysis</span>
+        <span class="products-count">Demographic Parity · NDCG@5 per group</span>
+      </div>
+      <div class="fairness-model-select">
+        <label for="fairnessModelSel">Model:</label>
+        <select id="fairnessModelSel">
+          <option value="MindMatch Hybrid">MindMatch Hybrid</option>
+          <option value="SVD-CF">SVD-CF</option>
+          <option value="Content-Based">Content-Based</option>
+        </select>
+      </div>
+      <div id="fairnessContainer">
+        <div class="loading"><div class="spinner"></div></div>
+      </div>
+    </div>
+
+    <!-- Compare section (hidden by default) -->
+    <div id="compareSection" style="display:none;">
+      <div class="products-header" style="margin-bottom:16px;">
+        <span class="products-title">Model Comparison</span>
+        <span class="products-count">All 6 models · Top 10 recommendations each</span>
+      </div>
+      <div id="compareContainer">
+        <div class="loading"><div class="spinner"></div><span>Loading…</span></div>
+      </div>
+    </div>
+
+  </div><!-- end right-panel -->
+</div><!-- end main -->
+
+<!-- Toast container -->
+<div class="toast-container" id="toastContainer"></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
