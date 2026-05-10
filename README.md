@@ -1,4 +1,4 @@
-# MindWell – Stress Activity Recommender System
+# MindMatch – Mental Health Recommender System
 
 A full-stack recommendation system that suggests personalised stress-management activities to users based on their DASS-21 (Depression, Anxiety, Stress Scales) scores. The system implements and compares **six distinct recommendation algorithms**, includes an NLP-based condition parser, offline evaluation metrics, and a fairness audit dashboard.
 
@@ -22,7 +22,7 @@ A full-stack recommendation system that suggests personalised stress-management 
 
 ## Overview
 
-MindWell (internally referred to as **MindMatch**) addresses the growing need for personalised mental wellness support. Rather than generic advice, it tailors activity recommendations to each user's specific psychological profile as measured by the clinically validated DASS-21 instrument.
+MindMatch (internally referred to as **MindMatch**) addresses the growing need for personalised mental wellness support. Rather than generic advice, it tailors activity recommendations to each user's specific psychological profile as measured by the clinically validated DASS-21 instrument.
 
 Users can receive recommendations either by:
 1. Selecting an existing user profile (collaborative/content-based filtering), or
